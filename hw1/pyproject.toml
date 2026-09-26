@@ -1,0 +1,16 @@
+[project]
+name = "hw1-cnn-performance-model"
+version = "0.1.0"
+description = "Analytical FLOPs / memory / latency / energy model of a small CNN"
+requires-python = ">=3.10"
+dependencies = [
+    "torch>=2.2",
+    "numpy",
+    "scipy",
+    "pandas",
+    "matplotlib",
+    "nvidia-ml-py",
+]
+
+[tool.uv]
+package = false
