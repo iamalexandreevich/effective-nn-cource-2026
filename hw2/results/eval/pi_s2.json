@@ -1,0 +1,829 @@
+{
+  "name": "pi",
+  "method": "pi",
+  "scale": 2.0,
+  "context_length": 4096,
+  "checkpoint": "HuggingFaceTB/SmolLM-360M",
+  "beta": null,
+  "beta_coefficient": null,
+  "dtype": "float32",
+  "device": "mps",
+  "perplexity": 18.24185719478911,
+  "ppl_sequences": 16,
+  "niah_accuracy": 0.0,
+  "niah_accuracy_by_depth": {
+    "0.0": 0.0,
+    "0.111": 0.0,
+    "0.222": 0.0,
+    "0.333": 0.0,
+    "0.444": 0.0,
+    "0.556": 0.0,
+    "0.667": 0.0,
+    "0.778": 0.0,
+    "0.889": 0.0,
+    "1.0": 0.0
+  },
+  "niah_trials": [
+    {
+      "key": "quiet-glacier",
+      "value": 9430815,
+      "depth": 0.0,
+      "haystack_offset": 134171,
+      "generated": "\n10.00000000",
+      "correct": false
+    },
+    {
+      "key": "quiet-compass",
+      "value": 8056747,
+      "depth": 0.0,
+      "haystack_offset": 143605,
+      "generated": "\n1.1.1.1.1.1",
+      "correct": false
+    },
+    {
+      "key": "humble-walnut",
+      "value": 8400346,
+      "depth": 0.0,
+      "haystack_offset": 62897,
+      "generated": " 40.00000000",
+      "correct": false
+    },
+    {
+      "key": "whispering-zephyr",
+      "value": 2354318,
+      "depth": 0.0,
+      "haystack_offset": 29028,
+      "generated": "\n\n\n\"I'm not sure I can do it",
+      "correct": false
+    },
+    {
+      "key": "silent-river",
+      "value": 8543956,
+      "depth": 0.0,
+      "haystack_offset": 3011,
+      "generated": "\n\n\nThe number of people who have been killed by",
+      "correct": false
+    },
+    {
+      "key": "humble-glacier",
+      "value": 4526984,
+      "depth": 0.0,
+      "haystack_offset": 104128,
+      "generated": "\n\n1. 1000000",
+      "correct": false
+    },
+    {
+      "key": "rustic-violin",
+      "value": 6983360,
+      "depth": 0.0,
+      "haystack_offset": 98656,
+      "generated": "\n10.00000000",
+      "correct": false
+    },
+    {
+      "key": "jagged-colonization",
+      "value": 6710873,
+      "depth": 0.0,
+      "haystack_offset": 23505,
+      "generated": "\n\n1. 1.1.1.1",
+      "correct": false
+    },
+    {
+      "key": "mellow-tundra",
+      "value": 5900991,
+      "depth": 0.0,
+      "haystack_offset": 75393,
+      "generated": "\n10.00000000",
+      "correct": false
+    },
+    {
+      "key": "gentle-lantern",
+      "value": 6184138,
+      "depth": 0.0,
+      "haystack_offset": 6485,
+      "generated": "\n1.5.5. It's a number that",
+      "correct": false
+    },
+    {
+      "key": "vivid-violin",
+      "value": 8735513,
+      "depth": 0.1111111111111111,
+      "haystack_offset": 110681,
+      "generated": " 10.5.\n\n\n[1]",
+      "correct": false
+    },
+    {
+      "key": "cloistered-canyon",
+      "value": 9362688,
+      "depth": 0.1111111111111111,
+      "haystack_offset": 30526,
+      "generated": " 10.00000000",
+      "correct": false
+    },
+    {
+      "key": "frozen-saddle",
+      "value": 9238128,
+      "depth": 0.1111111111111111,
+      "haystack_offset": 104372,
+      "generated": " 10.00000000",
+      "correct": false
+    },
+    {
+      "key": "jagged-orchard",
+      "value": 8045862,
+      "depth": 0.1111111111111111,
+      "haystack_offset": 147849,
+      "generated": "\n10.00000000",
+      "correct": false
+    },
+    {
+      "key": "humble-saddle",
+      "value": 9690383,
+      "depth": 0.1111111111111111,
+      "haystack_offset": 6652,
+      "generated": "\n1. 1.1.1.1.",
+      "correct": false
+    },
+    {
+      "key": "nimble-compass",
+      "value": 3164241,
+      "depth": 0.1111111111111111,
+      "haystack_offset": 12815,
+      "generated": "\n\n\nThe number of people who have a nim",
+      "correct": false
+    },
+    {
+      "key": "jagged-river",
+      "value": 8204296,
+      "depth": 0.1111111111111111,
+      "haystack_offset": 123218,
+      "generated": "\n1. 1.1.1.1.",
+      "correct": false
+    },
+    {
+      "key": "amber-quarry",
+      "value": 4840762,
+      "depth": 0.1111111111111111,
+      "haystack_offset": 31985,
+      "generated": " 10.5.\n\n10.5",
+      "correct": false
+    },
+    {
+      "key": "gentle-quarry",
+      "value": 5211189,
+      "depth": 0.1111111111111111,
+      "haystack_offset": 146747,
+      "generated": "\n10.00000000",
+      "correct": false
+    },
+    {
+      "key": "wistful-falcon",
+      "value": 9420478,
+      "depth": 0.1111111111111111,
+      "haystack_offset": 125538,
+      "generated": "\n\n\nThe number of people who have used it.",
+      "correct": false
+    },
+    {
+      "key": "wistful-beacon",
+      "value": 4397912,
+      "depth": 0.2222222222222222,
+      "haystack_offset": 77168,
+      "generated": "\n\n\nThe number of the number of things that are",
+      "correct": false
+    },
+    {
+      "key": "rustic-workhorse",
+      "value": 1555481,
+      "depth": 0.2222222222222222,
+      "haystack_offset": 39280,
+      "generated": " 10.00000000",
+      "correct": false
+    },
+    {
+      "key": "proud-thimble",
+      "value": 9772618,
+      "depth": 0.2222222222222222,
+      "haystack_offset": 128324,
+      "generated": "\n\n\nThe number of people who are proud of themselves",
+      "correct": false
+    },
+    {
+      "key": "vivid-meadow",
+      "value": 5363930,
+      "depth": 0.2222222222222222,
+      "haystack_offset": 127289,
+      "generated": "\n\n\nThe number of people who have a 1",
+      "correct": false
+    },
+    {
+      "key": "gentle-saddle",
+      "value": 9340912,
+      "depth": 0.2222222222222222,
+      "haystack_offset": 113830,
+      "generated": " 10.5.\nThe number is the number",
+      "correct": false
+    },
+    {
+      "key": "mellow-butterfly",
+      "value": 5866552,
+      "depth": 0.2222222222222222,
+      "haystack_offset": 83009,
+      "generated": "\n10.5. It's a number of the",
+      "correct": false
+    },
+    {
+      "key": "gentle-river",
+      "value": 8355987,
+      "depth": 0.2222222222222222,
+      "haystack_offset": 135049,
+      "generated": "\n10.00000000",
+      "correct": false
+    },
+    {
+      "key": "rustic-thimble",
+      "value": 4071049,
+      "depth": 0.2222222222222222,
+      "haystack_offset": 111614,
+      "generated": " 10.5.\n\n20.5",
+      "correct": false
+    },
+    {
+      "key": "humble-colonization",
+      "value": 5470559,
+      "depth": 0.2222222222222222,
+      "haystack_offset": 130658,
+      "generated": "\n10.00000000",
+      "correct": false
+    },
+    {
+      "key": "vivid-river",
+      "value": 4264621,
+      "depth": 0.2222222222222222,
+      "haystack_offset": 107822,
+      "generated": " 10.00000000",
+      "correct": false
+    },
+    {
+      "key": "amber-thimble",
+      "value": 1235427,
+      "depth": 0.3333333333333333,
+      "haystack_offset": 24161,
+      "generated": " 1300000.\n10",
+      "correct": false
+    },
+    {
+      "key": "whispering-thimble",
+      "value": 2393608,
+      "depth": 0.3333333333333333,
+      "haystack_offset": 52112,
+      "generated": " 10.5.\n\n\nThe magic number",
+      "correct": false
+    },
+    {
+      "key": "lucid-river",
+      "value": 1749254,
+      "depth": 0.3333333333333333,
+      "haystack_offset": 143248,
+      "generated": "\n10.00000000",
+      "correct": false
+    },
+    {
+      "key": "rustic-violin",
+      "value": 3596457,
+      "depth": 0.3333333333333333,
+      "haystack_offset": 1345,
+      "generated": "\n\n1. 10.0000",
+      "correct": false
+    },
+    {
+      "key": "tangled-walnut",
+      "value": 9254204,
+      "depth": 0.3333333333333333,
+      "haystack_offset": 35353,
+      "generated": " 10.00000000",
+      "correct": false
+    },
+    {
+      "key": "mellow-compass",
+      "value": 8935346,
+      "depth": 0.3333333333333333,
+      "haystack_offset": 34397,
+      "generated": "\n10.00000000",
+      "correct": false
+    },
+    {
+      "key": "proud-saddle",
+      "value": 5876803,
+      "depth": 0.3333333333333333,
+      "haystack_offset": 22133,
+      "generated": "\n\n1. 10.0000",
+      "correct": false
+    },
+    {
+      "key": "frozen-harbor",
+      "value": 3270731,
+      "depth": 0.3333333333333333,
+      "haystack_offset": 80217,
+      "generated": " 20.5.\n10.00",
+      "correct": false
+    },
+    {
+      "key": "jagged-beacon",
+      "value": 7549947,
+      "depth": 0.3333333333333333,
+      "haystack_offset": 38937,
+      "generated": "\n10000000000",
+      "correct": false
+    },
+    {
+      "key": "jagged-meadow",
+      "value": 7308337,
+      "depth": 0.3333333333333333,
+      "haystack_offset": 3704,
+      "generated": "\n\n\nThe number of people who have been killed by",
+      "correct": false
+    },
+    {
+      "key": "quiet-canyon",
+      "value": 2232006,
+      "depth": 0.4444444444444444,
+      "haystack_offset": 13467,
+      "generated": "\n10.5. 00.0.",
+      "correct": false
+    },
+    {
+      "key": "vivid-violin",
+      "value": 1432688,
+      "depth": 0.4444444444444444,
+      "haystack_offset": 6706,
+      "generated": " 42.5. 4. 4.",
+      "correct": false
+    },
+    {
+      "key": "jagged-quarry",
+      "value": 6498901,
+      "depth": 0.4444444444444444,
+      "haystack_offset": 79605,
+      "generated": "\n\n1000000000",
+      "correct": false
+    },
+    {
+      "key": "gentle-glacier",
+      "value": 3036298,
+      "depth": 0.4444444444444444,
+      "haystack_offset": 130434,
+      "generated": " 33328.\n\n\nThe number",
+      "correct": false
+    },
+    {
+      "key": "gentle-walnut",
+      "value": 3864434,
+      "depth": 0.4444444444444444,
+      "haystack_offset": 40341,
+      "generated": " 10.00000000",
+      "correct": false
+    },
+    {
+      "key": "nimble-saddle",
+      "value": 4472642,
+      "depth": 0.4444444444444444,
+      "haystack_offset": 113667,
+      "generated": " 42.5.\n2. It's a",
+      "correct": false
+    },
+    {
+      "key": "proud-glacier",
+      "value": 8697676,
+      "depth": 0.4444444444444444,
+      "haystack_offset": 61165,
+      "generated": " 10.00000000",
+      "correct": false
+    },
+    {
+      "key": "cloistered-tundra",
+      "value": 7696744,
+      "depth": 0.4444444444444444,
+      "haystack_offset": 8952,
+      "generated": " 10.5.\n\nThe magic number is",
+      "correct": false
+    },
+    {
+      "key": "hollow-harbor",
+      "value": 1758944,
+      "depth": 0.4444444444444444,
+      "haystack_offset": 142807,
+      "generated": "\n10.00000000",
+      "correct": false
+    },
+    {
+      "key": "elite-thimble",
+      "value": 4162996,
+      "depth": 0.4444444444444444,
+      "haystack_offset": 126835,
+      "generated": " 10.5.\n\n\nI'm not",
+      "correct": false
+    },
+    {
+      "key": "whispering-lantern",
+      "value": 9890860,
+      "depth": 0.5555555555555556,
+      "haystack_offset": 57337,
+      "generated": " 99986. 9. It's",
+      "correct": false
+    },
+    {
+      "key": "jagged-lantern",
+      "value": 3690909,
+      "depth": 0.5555555555555556,
+      "haystack_offset": 48760,
+      "generated": " 69999.\nThe number is ",
+      "correct": false
+    },
+    {
+      "key": "wistful-orchard",
+      "value": 8136260,
+      "depth": 0.5555555555555556,
+      "haystack_offset": 139725,
+      "generated": "\n10.00000000",
+      "correct": false
+    },
+    {
+      "key": "frozen-colonization",
+      "value": 7428783,
+      "depth": 0.5555555555555556,
+      "haystack_offset": 79930,
+      "generated": "\n10000000000",
+      "correct": false
+    },
+    {
+      "key": "brisk-violin",
+      "value": 3930894,
+      "depth": 0.5555555555555556,
+      "haystack_offset": 69060,
+      "generated": " 90.99999999",
+      "correct": false
+    },
+    {
+      "key": "gentle-quarry",
+      "value": 7974916,
+      "depth": 0.5555555555555556,
+      "haystack_offset": 75411,
+      "generated": " 10.00000000",
+      "correct": false
+    },
+    {
+      "key": "gentle-harbor",
+      "value": 6465836,
+      "depth": 0.5555555555555556,
+      "haystack_offset": 136140,
+      "generated": "\n10.00000000",
+      "correct": false
+    },
+    {
+      "key": "humble-thimble",
+      "value": 3015037,
+      "depth": 0.5555555555555556,
+      "haystack_offset": 138215,
+      "generated": "\n10.00000000",
+      "correct": false
+    },
+    {
+      "key": "jagged-orchard",
+      "value": 2586554,
+      "depth": 0.5555555555555556,
+      "haystack_offset": 56185,
+      "generated": " 56.\n1.1.1.1",
+      "correct": false
+    },
+    {
+      "key": "lucid-workhorse",
+      "value": 2562287,
+      "depth": 0.5555555555555556,
+      "haystack_offset": 119043,
+      "generated": " 2628.\n\nNovember 20",
+      "correct": false
+    },
+    {
+      "key": "tangled-beacon",
+      "value": 4061027,
+      "depth": 0.6666666666666666,
+      "haystack_offset": 7126,
+      "generated": " 0.000000000",
+      "correct": false
+    },
+    {
+      "key": "vivid-harbor",
+      "value": 6900575,
+      "depth": 0.6666666666666666,
+      "haystack_offset": 147325,
+      "generated": "\n10.00000000",
+      "correct": false
+    },
+    {
+      "key": "nimble-tundra",
+      "value": 4632979,
+      "depth": 0.6666666666666666,
+      "haystack_offset": 28755,
+      "generated": " 62399.\n\n\nOctober ",
+      "correct": false
+    },
+    {
+      "key": "proud-orchard",
+      "value": 4597623,
+      "depth": 0.6666666666666666,
+      "haystack_offset": 149378,
+      "generated": "\n10.25.1.2.2",
+      "correct": false
+    },
+    {
+      "key": "silent-walnut",
+      "value": 5497983,
+      "depth": 0.6666666666666666,
+      "haystack_offset": 145682,
+      "generated": "\n10.5.000000",
+      "correct": false
+    },
+    {
+      "key": "amber-river",
+      "value": 5424365,
+      "depth": 0.6666666666666666,
+      "haystack_offset": 25278,
+      "generated": "\n1. 10.00000",
+      "correct": false
+    },
+    {
+      "key": "frozen-harbor",
+      "value": 2778984,
+      "depth": 0.6666666666666666,
+      "haystack_offset": 15840,
+      "generated": " 27884.\n\n[]\n",
+      "correct": false
+    },
+    {
+      "key": "vivid-harbor",
+      "value": 2783754,
+      "depth": 0.6666666666666666,
+      "haystack_offset": 132809,
+      "generated": " 10.\n1. 1.1.",
+      "correct": false
+    },
+    {
+      "key": "tangled-orchard",
+      "value": 2072316,
+      "depth": 0.6666666666666666,
+      "haystack_offset": 76293,
+      "generated": "\n1. 10.00000",
+      "correct": false
+    },
+    {
+      "key": "tangled-harbor",
+      "value": 5376476,
+      "depth": 0.6666666666666666,
+      "haystack_offset": 67141,
+      "generated": " 36.5.\nThe magic number is ",
+      "correct": false
+    },
+    {
+      "key": "cloistered-workhorse",
+      "value": 7906212,
+      "depth": 0.7777777777777778,
+      "haystack_offset": 67382,
+      "generated": " 70.2.\nThe magic number is the",
+      "correct": false
+    },
+    {
+      "key": "frozen-workhorse",
+      "value": 1961529,
+      "depth": 0.7777777777777778,
+      "haystack_offset": 25283,
+      "generated": "\n1. 10.00000",
+      "correct": false
+    },
+    {
+      "key": "lucid-workhorse",
+      "value": 6199572,
+      "depth": 0.7777777777777778,
+      "haystack_offset": 32249,
+      "generated": " 10.\n10.\n1.0",
+      "correct": false
+    },
+    {
+      "key": "quiet-tundra",
+      "value": 6877173,
+      "depth": 0.7777777777777778,
+      "haystack_offset": 82568,
+      "generated": "\n10.00000000",
+      "correct": false
+    },
+    {
+      "key": "gentle-zephyr",
+      "value": 1637716,
+      "depth": 0.7777777777777778,
+      "haystack_offset": 105956,
+      "generated": " 10.5.\n\nThe magic number is",
+      "correct": false
+    },
+    {
+      "key": "tangled-zephyr",
+      "value": 4617775,
+      "depth": 0.7777777777777778,
+      "haystack_offset": 121286,
+      "generated": "\n\n10.0000000",
+      "correct": false
+    },
+    {
+      "key": "frozen-river",
+      "value": 7277142,
+      "depth": 0.7777777777777778,
+      "haystack_offset": 131402,
+      "generated": " 7774.\n\n[]\n[",
+      "correct": false
+    },
+    {
+      "key": "rustic-canyon",
+      "value": 5896957,
+      "depth": 0.7777777777777778,
+      "haystack_offset": 93406,
+      "generated": " 590. It's the number of people who",
+      "correct": false
+    },
+    {
+      "key": "elite-beacon",
+      "value": 1397004,
+      "depth": 0.7777777777777778,
+      "haystack_offset": 73775,
+      "generated": " 10.5.\n10.5.",
+      "correct": false
+    },
+    {
+      "key": "tangled-falcon",
+      "value": 3052109,
+      "depth": 0.7777777777777778,
+      "haystack_offset": 77841,
+      "generated": "\n1020000.\n\n[",
+      "correct": false
+    },
+    {
+      "key": "frozen-glacier",
+      "value": 1340075,
+      "depth": 0.8888888888888888,
+      "haystack_offset": 142123,
+      "generated": "\n14007.\n\n\nThe number",
+      "correct": false
+    },
+    {
+      "key": "tangled-meadow",
+      "value": 1941959,
+      "depth": 0.8888888888888888,
+      "haystack_offset": 29516,
+      "generated": " 1400.\n\n\nApril 2",
+      "correct": false
+    },
+    {
+      "key": "brisk-zephyr",
+      "value": 3058316,
+      "depth": 0.8888888888888888,
+      "haystack_offset": 31007,
+      "generated": " 0.08.\n\n\nMay 2",
+      "correct": false
+    },
+    {
+      "key": "elite-lantern",
+      "value": 9767502,
+      "depth": 0.8888888888888888,
+      "haystack_offset": 92809,
+      "generated": " 96000. 9000",
+      "correct": false
+    },
+    {
+      "key": "proud-falcon",
+      "value": 1483086,
+      "depth": 0.8888888888888888,
+      "haystack_offset": 111350,
+      "generated": " 180000.\n\n\n[",
+      "correct": false
+    },
+    {
+      "key": "nimble-lantern",
+      "value": 6972209,
+      "depth": 0.8888888888888888,
+      "haystack_offset": 108867,
+      "generated": " 9200000.\n[]",
+      "correct": false
+    },
+    {
+      "key": "wistful-canyon",
+      "value": 5014888,
+      "depth": 0.8888888888888888,
+      "haystack_offset": 110358,
+      "generated": "\n\n\n[1]\n\n\n[2\n",
+      "correct": false
+    },
+    {
+      "key": "lucid-lantern",
+      "value": 4078067,
+      "depth": 0.8888888888888888,
+      "haystack_offset": 142325,
+      "generated": "\n170076.\n\n\nI",
+      "correct": false
+    },
+    {
+      "key": "whispering-tundra",
+      "value": 7658179,
+      "depth": 0.8888888888888888,
+      "haystack_offset": 66839,
+      "generated": " 75.\n\n\nThe magic number is ",
+      "correct": false
+    },
+    {
+      "key": "amber-compass",
+      "value": 1391949,
+      "depth": 0.8888888888888888,
+      "haystack_offset": 4350,
+      "generated": " 1995.\n\n195 is",
+      "correct": false
+    },
+    {
+      "key": "rustic-tundra",
+      "value": 9033657,
+      "depth": 1.0,
+      "haystack_offset": 109544,
+      "generated": " 935.5.\n[] The magic",
+      "correct": false
+    },
+    {
+      "key": "rustic-glacier",
+      "value": 3326285,
+      "depth": 1.0,
+      "haystack_offset": 23447,
+      "generated": " 32225.\nThe magic number ",
+      "correct": false
+    },
+    {
+      "key": "brisk-tundra",
+      "value": 1637682,
+      "depth": 1.0,
+      "haystack_offset": 134754,
+      "generated": " 6778.\nI was a 1",
+      "correct": false
+    },
+    {
+      "key": "rustic-glacier",
+      "value": 9731684,
+      "depth": 1.0,
+      "haystack_offset": 83230,
+      "generated": " 71000000000",
+      "correct": false
+    },
+    {
+      "key": "elite-workhorse",
+      "value": 5073617,
+      "depth": 1.0,
+      "haystack_offset": 123350,
+      "generated": " 576767.\n\n\nThe",
+      "correct": false
+    },
+    {
+      "key": "elite-compass",
+      "value": 9533231,
+      "depth": 1.0,
+      "haystack_offset": 39543,
+      "generated": " 93333.\nThe number is ",
+      "correct": false
+    },
+    {
+      "key": "wistful-violin",
+      "value": 4900916,
+      "depth": 1.0,
+      "haystack_offset": 147217,
+      "generated": "\n10901000100",
+      "correct": false
+    },
+    {
+      "key": "rustic-glacier",
+      "value": 4371874,
+      "depth": 1.0,
+      "haystack_offset": 98232,
+      "generated": " 47.\n[10.000",
+      "correct": false
+    },
+    {
+      "key": "vivid-thimble",
+      "value": 8676586,
+      "depth": 1.0,
+      "haystack_offset": 143863,
+      "generated": " 666556.\nI'd be",
+      "correct": false
+    },
+    {
+      "key": "humble-walnut",
+      "value": 6237740,
+      "depth": 1.0,
+      "haystack_offset": 49257,
+      "generated": " 63000.\nis the number of",
+      "correct": false
+    }
+  ],
+  "elapsed_minutes": 5.239243932565054
+}

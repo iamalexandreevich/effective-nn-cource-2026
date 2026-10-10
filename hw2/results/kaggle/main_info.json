@@ -1,0 +1,13 @@
+{
+  "code_version": "2026-10-09T13:22:46Z git:2ba3ab9 uncommitted:11",
+  "profile": {
+    "max_steps": 1000,
+    "save_steps": 200,
+    "timeout_hours": 11.0
+  },
+  "process_count": 2,
+  "resume_dir": null,
+  "returncode": 0,
+  "timed_out": false,
+  "elapsed_hours": 10.0268212834994
+}

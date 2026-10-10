@@ -1,0 +1,67 @@
+defaults:
+  - override /trainer_cfg@_global_: base_trainer
+  - override /model_cfg@_global_: smollm/smollm360m
+  - override /data_cfg@_global_: fineweb_edu_shuffled
+  - _self_
+
+custom_class: custom_models.drope.DroPELlamaForCausalLM
+from_pretrained: true
+drope: true
+
+model_custom_config:
+  _target_: custom_models.drope.DroPELlamaConfig.from_pretrained
+  pretrained_model_name_or_path: ${model_name_or_path}
+  attention_type: qk_norm_nope
+
+# T4 (Turing) не поддерживает FlashAttention-2 и bf16
+model_args:
+  torch_dtype: float32
+  attn_implementation: sdpa
+
+# Стриминг fineweb-edu с HF давал ~1.8K токенов/с на 2xT4, поэтому данные токенизированы заранее
+tokens_path: ???
+make_dataset_fn:
+  _target_: pretokenized_data.load_pretokenized_dataset
+  tokens_path: ${tokens_path}
+
+max_seq_length: 2048
+max_steps: ???
+save_steps: ???
+train_batch_size: 32
+per_device_train_batch_size: 4
+
+learning_rate: 1.0e-3
+lr_scheduler_type: cosine
+warmup_ratio: 0.04
+weight_decay: 0.1
+adam_beta1: 0.9
+adam_beta2: 0.95
+adam_epsilon: 1.0e-8
+max_grad_norm: 1.0
+
+bf16: false
+tf32: false
+fp16: true
+
+do_eval: false
+save_final_model: false
+report_to: none
+logging_steps: 10
+dataloader_num_workers: 2
+
+trainer_args:
+  fp16: ${fp16}
+  save_total_limit: 1
+  disable_tqdm: true
+  logging_first_step: true
+
+snapshot_dir: ???
+trainer:
+  # Hydra иначе передаёт ListConfig, а Trainer дописывает в список свои колбэки
+  _convert_: partial
+  callbacks:
+    - _target_: snapshot_callback.SnapshotCallback
+      snapshot_dir: ${snapshot_dir}
+
+wandb_project: drope
+wandb_run_name: t4_smollm360m_qk_norm

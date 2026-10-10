@@ -1,0 +1,22 @@
+{
+  "code_version": "2026-10-09T12:43:45Z git:2ba3ab9 uncommitted:11",
+  "gpu_count": 2,
+  "attempts": [
+    {
+      "process_count": 2,
+      "per_device_batch": 2,
+      "tokens_per_second": 1863.68,
+      "losses": [
+        6.4275,
+        6.4401,
+        6.0153,
+        5.818,
+        5.5628,
+        5.4903,
+        5.4446,
+        5.3928
+      ],
+      "has_nonfinite_loss": false
+    }
+  ]
+}

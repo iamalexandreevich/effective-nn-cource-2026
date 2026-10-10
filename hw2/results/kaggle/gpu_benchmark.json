@@ -1,0 +1,38 @@
+{
+  "gpu": [
+    {
+      "batch_size": 2,
+      "checkpointing": true,
+      "optimizer": "adamw",
+      "seconds_per_micro_batch": 1.742539683977763,
+      "tokens_per_second_one_gpu": 2350.592091337571,
+      "peak_memory_gb": 7.7366144
+    },
+    {
+      "batch_size": 2,
+      "checkpointing": false,
+      "optimizer": "adamw",
+      "out_of_memory": true
+    },
+    {
+      "batch_size": 4,
+      "checkpointing": true,
+      "optimizer": "adamw_8bit",
+      "seconds_per_micro_batch": 3.369858145713806,
+      "tokens_per_second_one_gpu": 2430.9628612763945,
+      "peak_memory_gb": 8.55685632
+    },
+    {
+      "batch_size": 8,
+      "checkpointing": true,
+      "optimizer": "adamw_8bit",
+      "out_of_memory": true
+    },
+    {
+      "batch_size": 4,
+      "checkpointing": false,
+      "optimizer": "adamw_8bit",
+      "out_of_memory": true
+    }
+  ]
+}

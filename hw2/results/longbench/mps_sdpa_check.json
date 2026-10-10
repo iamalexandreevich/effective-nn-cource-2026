@@ -1,0 +1,31 @@
+{
+  "dataset": "gov_report",
+  "samples": 6,
+  "dtype": "bfloat16",
+  "device": "mps",
+  "max_length": 2048,
+  "runs": {
+    "sdpa": {
+      "empty_answers": 6,
+      "answers": [
+        "\n\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n"
+      ]
+    },
+    "eager": {
+      "empty_answers": 0,
+      "answers": [
+        "\n\nReport:\n\nReport:\n\nReport:\n\nReport:\n\nReport:\n\nReport:\n\nReport:\n\nReport:\n\nReport:\n\nReport:",
+        "\n\nThe Navy has been reporting persistently low readiness levels for Navy ships and the homeport of Yokosuka, Japan. Three of the four at sea mishaps that have occurred—two in",
+        "\n\nThe SFSP is a federally funded program that provides free meals to children in low-income households during the summer months. The program is administered by the U.S. Department of Agriculture (",
+        "\n\nReport:\n\nReport:\n\nReport:\n\nReport:\n\nReport:\n\nReport:\n\nReport:\n\nReport:\n\nReport:\n\nReport:",
+        "\n\nThe report describes the distribution of election administration duties at the state and local levels and the structures of the state and local systems that conduct elections. It then uses examples from past federal action on election",
+        "\n\nThe U.S. government has made significant progress in improving the management of IT acquisitions and operations, and in securing the security of federal IT. However, the federal government has not yet fully"
+      ]
+    }
+  }
+}

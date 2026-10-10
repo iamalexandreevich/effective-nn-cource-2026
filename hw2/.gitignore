@@ -1,0 +1,7 @@
+.venv/
+artifacts/
+__pycache__/
+.pytest_cache/
+outputs/
+kaggle/code_version.txt
+.venv-eval/

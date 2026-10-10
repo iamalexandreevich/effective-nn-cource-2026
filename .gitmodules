@@ -1,0 +1,3 @@
+[submodule "hw2/third_party/DroPE"]
+	path = hw2/third_party/DroPE
+	url = https://github.com/SakanaAI/DroPE.git
