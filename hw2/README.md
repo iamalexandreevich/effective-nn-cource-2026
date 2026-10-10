@@ -2,7 +2,13 @@
 
 Воспроизведение статьи **Extending the Context of Pretrained LLMs by Dropping Their Positional Embeddings** (Gelberg, Eguchi, Akiba, Cetin; Sakana AI, [arXiv 2512.12167](https://arxiv.org/abs/2512.12167)) на модели SmolLM-360M. Курс «Эффективные NN», ИТМО.
 
-- Отчёт: [report/report.md](report/report.md)
+Материалы для сдачи лежат в [artifacts/](artifacts/):
+
+- Отчёт: [artifacts/drope_report.pdf](artifacts/drope_report.pdf) (исходник с таблицами из `results/`: [report/report.md](report/report.md))
+- Презентация: [artifacts/drope_presentation.pptx](artifacts/drope_presentation.pptx) и [PDF](artifacts/drope_presentation.pdf)
+
+Ссылки:
+
 - Полученная модель (веса после рекалибровки): https://huggingface.co/alexander-andreevich/SmolLM-360M-DroPE-66M
 - Код авторов статьи: https://github.com/SakanaAI/DroPE (подключён как сабмодуль, не изменялся)
 
@@ -14,6 +20,7 @@
 
 ```
 README.md
+artifacts/            отчёт (PDF) и презентация (PPTX и PDF) для сдачи
 requirements.txt      окружение для кода и тестов
 requirements-eval.txt отдельное окружение для lm-eval-harness (качество в исходном контексте)
 
@@ -46,7 +53,7 @@ report/               report_template.md → report.md (таблицы соби�
 third_party/DroPE     код авторов (git submodule)
 ```
 
-Не входит в репозиторий: веса модели (они на Hugging Face и в выводе Kaggle-ядра `lild1tz/drope-main`), кэши данных `artifacts/`, окружения `.venv*`. Команды ниже создают их заново.
+Не входит в репозиторий: веса модели (они на Hugging Face и в выводе Kaggle-ядра `lild1tz/drope-main`), кэши данных в подпапках `artifacts/`, окружения `.venv*`. Команды ниже создают их заново.
 
 ## Как запустить
 

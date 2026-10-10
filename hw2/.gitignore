@@ -1,7 +1,12 @@
 .venv/
-artifacts/
 __pycache__/
 .pytest_cache/
 outputs/
 kaggle/code_version.txt
 .venv-eval/
+artifacts/eval/
+artifacts/haystack/
+artifacts/kaggle/
+artifacts/longbench/
+artifacts/fineweb/
+artifacts/hf_release/
