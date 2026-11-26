@@ -1,0 +1,4 @@
+numpy==2.4.6
+torch==2.8.0
+openai-whisper==20250625
+jiwer==4.0.0

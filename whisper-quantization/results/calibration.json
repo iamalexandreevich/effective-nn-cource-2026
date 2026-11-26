@@ -1,0 +1,2102 @@
+{
+  "gptq16": {
+    "f16_sha256": "1be3a9b2063867b937e64e2ec7483364a79917e157fa98c5d94b5c1fffea987b",
+    "control_sha256": "f6099c17a4305c6d173ef90ab6f15150dcbb85332b7831313bf36a378d7c5a85",
+    "model_sha256": "f5e690ce52398fcbd15f05b0190a369dec568a772de12076a8ac79e4e5d40b3d",
+    "damp": 0.01,
+    "tensors": [
+      {
+        "tensor": "encoder.blocks.0.attn.query.weight",
+        "shape": [
+          768,
+          768
+        ],
+        "activation_frames": 9817,
+        "calibration_output_mse_stock": 0.0014984073350206017,
+        "calibration_output_mse_gptq": 0.00030649229302071035
+      },
+      {
+        "tensor": "encoder.blocks.0.attn.key.weight",
+        "shape": [
+          768,
+          768
+        ],
+        "activation_frames": 9817,
+        "calibration_output_mse_stock": 0.0017523617716506124,
+        "calibration_output_mse_gptq": 0.0003308394516352564
+      },
+      {
+        "tensor": "encoder.blocks.0.attn.value.weight",
+        "shape": [
+          768,
+          768
+        ],
+        "activation_frames": 9817,
+        "calibration_output_mse_stock": 0.001220553065650165,
+        "calibration_output_mse_gptq": 0.0003902852477040142
+      },
+      {
+        "tensor": "encoder.blocks.0.attn.out.weight",
+        "shape": [
+          768,
+          768
+        ],
+        "activation_frames": 9817,
+        "calibration_output_mse_stock": 0.00038068954017944634,
+        "calibration_output_mse_gptq": 3.319579263916239e-05
+      },
+      {
+        "tensor": "encoder.blocks.0.mlp.0.weight",
+        "shape": [
+          3072,
+          768
+        ],
+        "activation_frames": 9817,
+        "calibration_output_mse_stock": 0.0028202792163938284,
+        "calibration_output_mse_gptq": 0.0004137881041970104
+      },
+      {
+        "tensor": "encoder.blocks.0.mlp.2.weight",
+        "shape": [
+          768,
+          3072
+        ],
+        "activation_frames": 9817,
+        "calibration_output_mse_stock": 0.00018834842194337398,
+        "calibration_output_mse_gptq": 4.886560418526642e-05
+      },
+      {
+        "tensor": "encoder.blocks.1.attn.query.weight",
+        "shape": [
+          768,
+          768
+        ],
+        "activation_frames": 9817,
+        "calibration_output_mse_stock": 0.0022762836888432503,
+        "calibration_output_mse_gptq": 0.0007352758548222482
+      },
+      {
+        "tensor": "encoder.blocks.1.attn.key.weight",
+        "shape": [
+          768,
+          768
+        ],
+        "activation_frames": 9817,
+        "calibration_output_mse_stock": 0.0025140391662716866,
+        "calibration_output_mse_gptq": 0.000808622979093343
+      },
+      {
+        "tensor": "encoder.blocks.1.attn.value.weight",
+        "shape": [
+          768,
+          768
+        ],
+        "activation_frames": 9817,
+        "calibration_output_mse_stock": 0.0008579704444855452,
+        "calibration_output_mse_gptq": 0.0002658221928868443
+      },
+      {
+        "tensor": "encoder.blocks.1.attn.out.weight",
+        "shape": [
+          768,
+          768
+        ],
+        "activation_frames": 9817,
+        "calibration_output_mse_stock": 5.792119191028178e-05,
+        "calibration_output_mse_gptq": 1.1688258382491767e-05
+      },
+      {
+        "tensor": "encoder.blocks.1.mlp.0.weight",
+        "shape": [
+          3072,
+          768
+        ],
+        "activation_frames": 9817,
+        "calibration_output_mse_stock": 0.002467329381033778,
+        "calibration_output_mse_gptq": 0.00048551816144026816
+      },
+      {
+        "tensor": "encoder.blocks.1.mlp.2.weight",
+        "shape": [
+          768,
+          3072
+        ],
+        "activation_frames": 9817,
+        "calibration_output_mse_stock": 8.279833127744496e-05,
+        "calibration_output_mse_gptq": 1.769529808370862e-05
+      },
+      {
+        "tensor": "encoder.blocks.2.attn.query.weight",
+        "shape": [
+          768,
+          768
+        ],
+        "activation_frames": 9817,
+        "calibration_output_mse_stock": 0.002133541274815798,
+        "calibration_output_mse_gptq": 0.0008377428166568279
+      },
+      {
+        "tensor": "encoder.blocks.2.attn.key.weight",
+        "shape": [
+          768,
+          768
+        ],
+        "activation_frames": 9817,
+        "calibration_output_mse_stock": 0.0026351201813668013,
+        "calibration_output_mse_gptq": 0.0011419217335060239
+      },
+      {
+        "tensor": "encoder.blocks.2.attn.value.weight",
+        "shape": [
+          768,
+          768
+        ],
+        "activation_frames": 9817,
+        "calibration_output_mse_stock": 0.0010570563608780503,
+        "calibration_output_mse_gptq": 0.0004062545485794544
+      },
+      {
+        "tensor": "encoder.blocks.2.attn.out.weight",
+        "shape": [
+          768,
+          768
+        ],
+        "activation_frames": 9817,
+        "calibration_output_mse_stock": 8.039944077609107e-05,
+        "calibration_output_mse_gptq": 1.7992208086070605e-05
+      },
+      {
+        "tensor": "encoder.blocks.2.mlp.0.weight",
+        "shape": [
+          3072,
+          768
+        ],
+        "activation_frames": 9817,
+        "calibration_output_mse_stock": 0.002075107069686055,
+        "calibration_output_mse_gptq": 0.0005691422848030925
+      },
+      {
+        "tensor": "encoder.blocks.2.mlp.2.weight",
+        "shape": [
+          768,
+          3072
+        ],
+        "activation_frames": 9817,
+        "calibration_output_mse_stock": 7.273490336956456e-05,
+        "calibration_output_mse_gptq": 1.8269813153892756e-05
+      },
+      {
+        "tensor": "encoder.blocks.3.attn.query.weight",
+        "shape": [
+          768,
+          768
+        ],
+        "activation_frames": 9817,
+        "calibration_output_mse_stock": 0.002429662039503455,
+        "calibration_output_mse_gptq": 0.001120865112170577
+      },
+      {
+        "tensor": "encoder.blocks.3.attn.key.weight",
+        "shape": [
+          768,
+          768
+        ],
+        "activation_frames": 9817,
+        "calibration_output_mse_stock": 0.0031292575877159834,
+        "calibration_output_mse_gptq": 0.001480601727962494
+      },
+      {
+        "tensor": "encoder.blocks.3.attn.value.weight",
+        "shape": [
+          768,
+          768
+        ],
+        "activation_frames": 9817,
+        "calibration_output_mse_stock": 0.0013207335723564029,
+        "calibration_output_mse_gptq": 0.0005884294514544308
+      },
+      {
+        "tensor": "encoder.blocks.3.attn.out.weight",
+        "shape": [
+          768,
+          768
+        ],
+        "activation_frames": 9817,
+        "calibration_output_mse_stock": 7.19843155820854e-05,
+        "calibration_output_mse_gptq": 2.0598978153429925e-05
+      },
+      {
+        "tensor": "encoder.blocks.3.mlp.0.weight",
+        "shape": [
+          3072,
+          768
+        ],
+        "activation_frames": 9817,
+        "calibration_output_mse_stock": 0.002142872428521514,
+        "calibration_output_mse_gptq": 0.0007010144181549549
+      },
+      {
+        "tensor": "encoder.blocks.3.mlp.2.weight",
+        "shape": [
+          768,
+          3072
+        ],
+        "activation_frames": 9817,
+        "calibration_output_mse_stock": 8.602532761869952e-05,
+        "calibration_output_mse_gptq": 2.3874830731074326e-05
+      },
+      {
+        "tensor": "encoder.blocks.4.attn.query.weight",
+        "shape": [
+          768,
+          768
+        ],
+        "activation_frames": 9817,
+        "calibration_output_mse_stock": 0.002780347829684615,
+        "calibration_output_mse_gptq": 0.001167846261523664
+      },
+      {
+        "tensor": "encoder.blocks.4.attn.key.weight",
+        "shape": [
+          768,
+          768
+        ],
+        "activation_frames": 9817,
+        "calibration_output_mse_stock": 0.0027852654457092285,
+        "calibration_output_mse_gptq": 0.0011546948226168752
+      },
+      {
+        "tensor": "encoder.blocks.4.attn.value.weight",
+        "shape": [
+          768,
+          768
+        ],
+        "activation_frames": 9817,
+        "calibration_output_mse_stock": 0.0015920571750029922,
+        "calibration_output_mse_gptq": 0.0007150876335799694
+      },
+      {
+        "tensor": "encoder.blocks.4.attn.out.weight",
+        "shape": [
+          768,
+          768
+        ],
+        "activation_frames": 9817,
+        "calibration_output_mse_stock": 0.0001498364144936204,
+        "calibration_output_mse_gptq": 5.547749969991855e-05
+      },
+      {
+        "tensor": "encoder.blocks.4.mlp.0.weight",
+        "shape": [
+          3072,
+          768
+        ],
+        "activation_frames": 9817,
+        "calibration_output_mse_stock": 0.0023695549461990595,
+        "calibration_output_mse_gptq": 0.0008259951137006283
+      },
+      {
+        "tensor": "encoder.blocks.4.mlp.2.weight",
+        "shape": [
+          768,
+          3072
+        ],
+        "activation_frames": 9817,
+        "calibration_output_mse_stock": 0.0001182513587991707,
+        "calibration_output_mse_gptq": 3.352506973897107e-05
+      },
+      {
+        "tensor": "encoder.blocks.5.attn.query.weight",
+        "shape": [
+          768,
+          768
+        ],
+        "activation_frames": 9817,
+        "calibration_output_mse_stock": 0.0025323648005723953,
+        "calibration_output_mse_gptq": 0.0012270460138097405
+      },
+      {
+        "tensor": "encoder.blocks.5.attn.key.weight",
+        "shape": [
+          768,
+          768
+        ],
+        "activation_frames": 9817,
+        "calibration_output_mse_stock": 0.003017256734892726,
+        "calibration_output_mse_gptq": 0.001545606297440827
+      },
+      {
+        "tensor": "encoder.blocks.5.attn.value.weight",
+        "shape": [
+          768,
+          768
+        ],
+        "activation_frames": 9817,
+        "calibration_output_mse_stock": 0.0016002865741029382,
+        "calibration_output_mse_gptq": 0.0007671535131521523
+      },
+      {
+        "tensor": "encoder.blocks.5.attn.out.weight",
+        "shape": [
+          768,
+          768
+        ],
+        "activation_frames": 9817,
+        "calibration_output_mse_stock": 0.000125150618259795,
+        "calibration_output_mse_gptq": 4.422478377819061e-05
+      },
+      {
+        "tensor": "encoder.blocks.5.mlp.0.weight",
+        "shape": [
+          3072,
+          768
+        ],
+        "activation_frames": 9817,
+        "calibration_output_mse_stock": 0.00320231425575912,
+        "calibration_output_mse_gptq": 0.001158865517936647
+      },
+      {
+        "tensor": "encoder.blocks.5.mlp.2.weight",
+        "shape": [
+          768,
+          3072
+        ],
+        "activation_frames": 9817,
+        "calibration_output_mse_stock": 0.00016247022722382098,
+        "calibration_output_mse_gptq": 5.2161809435347095e-05
+      },
+      {
+        "tensor": "encoder.blocks.6.attn.query.weight",
+        "shape": [
+          768,
+          768
+        ],
+        "activation_frames": 9817,
+        "calibration_output_mse_stock": 0.002396402880549431,
+        "calibration_output_mse_gptq": 0.001084534334950149
+      },
+      {
+        "tensor": "encoder.blocks.6.attn.key.weight",
+        "shape": [
+          768,
+          768
+        ],
+        "activation_frames": 9817,
+        "calibration_output_mse_stock": 0.0025639089290052652,
+        "calibration_output_mse_gptq": 0.0012197246542200446
+      },
+      {
+        "tensor": "encoder.blocks.6.attn.value.weight",
+        "shape": [
+          768,
+          768
+        ],
+        "activation_frames": 9817,
+        "calibration_output_mse_stock": 0.0018446278991177678,
+        "calibration_output_mse_gptq": 0.0008359777857549489
+      },
+      {
+        "tensor": "encoder.blocks.6.attn.out.weight",
+        "shape": [
+          768,
+          768
+        ],
+        "activation_frames": 9817,
+        "calibration_output_mse_stock": 6.400486745405942e-05,
+        "calibration_output_mse_gptq": 1.0239768016617745e-05
+      },
+      {
+        "tensor": "encoder.blocks.6.mlp.0.weight",
+        "shape": [
+          3072,
+          768
+        ],
+        "activation_frames": 9817,
+        "calibration_output_mse_stock": 0.0037710329052060843,
+        "calibration_output_mse_gptq": 0.0013913203729316592
+      },
+      {
+        "tensor": "encoder.blocks.6.mlp.2.weight",
+        "shape": [
+          768,
+          3072
+        ],
+        "activation_frames": 9817,
+        "calibration_output_mse_stock": 0.000509884615894407,
+        "calibration_output_mse_gptq": 6.310703611234203e-05
+      },
+      {
+        "tensor": "encoder.blocks.7.attn.query.weight",
+        "shape": [
+          768,
+          768
+        ],
+        "activation_frames": 9817,
+        "calibration_output_mse_stock": 0.004918296821415424,
+        "calibration_output_mse_gptq": 0.0020957011729478836
+      },
+      {
+        "tensor": "encoder.blocks.7.attn.key.weight",
+        "shape": [
+          768,
+          768
+        ],
+        "activation_frames": 9817,
+        "calibration_output_mse_stock": 0.005731433164328337,
+        "calibration_output_mse_gptq": 0.002442938042804599
+      },
+      {
+        "tensor": "encoder.blocks.7.attn.value.weight",
+        "shape": [
+          768,
+          768
+        ],
+        "activation_frames": 9817,
+        "calibration_output_mse_stock": 0.00343433883972466,
+        "calibration_output_mse_gptq": 0.0014783673686906695
+      },
+      {
+        "tensor": "encoder.blocks.7.attn.out.weight",
+        "shape": [
+          768,
+          768
+        ],
+        "activation_frames": 9817,
+        "calibration_output_mse_stock": 0.000523490714840591,
+        "calibration_output_mse_gptq": 0.0001925894321175292
+      },
+      {
+        "tensor": "encoder.blocks.7.mlp.0.weight",
+        "shape": [
+          3072,
+          768
+        ],
+        "activation_frames": 9817,
+        "calibration_output_mse_stock": 0.004444695543497801,
+        "calibration_output_mse_gptq": 0.0013305650791153312
+      },
+      {
+        "tensor": "encoder.blocks.7.mlp.2.weight",
+        "shape": [
+          768,
+          3072
+        ],
+        "activation_frames": 9817,
+        "calibration_output_mse_stock": 0.00034734452492557466,
+        "calibration_output_mse_gptq": 0.00010201366967521608
+      },
+      {
+        "tensor": "encoder.blocks.8.attn.query.weight",
+        "shape": [
+          768,
+          768
+        ],
+        "activation_frames": 9817,
+        "calibration_output_mse_stock": 0.004446197766810656,
+        "calibration_output_mse_gptq": 0.001842522993683815
+      },
+      {
+        "tensor": "encoder.blocks.8.attn.key.weight",
+        "shape": [
+          768,
+          768
+        ],
+        "activation_frames": 9817,
+        "calibration_output_mse_stock": 0.004742330405861139,
+        "calibration_output_mse_gptq": 0.0019445233047008514
+      },
+      {
+        "tensor": "encoder.blocks.8.attn.value.weight",
+        "shape": [
+          768,
+          768
+        ],
+        "activation_frames": 9817,
+        "calibration_output_mse_stock": 0.0033840732648968697,
+        "calibration_output_mse_gptq": 0.0013866596855223179
+      },
+      {
+        "tensor": "encoder.blocks.8.attn.out.weight",
+        "shape": [
+          768,
+          768
+        ],
+        "activation_frames": 9817,
+        "calibration_output_mse_stock": 0.0002057618839899078,
+        "calibration_output_mse_gptq": 7.426161027979106e-05
+      },
+      {
+        "tensor": "encoder.blocks.8.mlp.0.weight",
+        "shape": [
+          3072,
+          768
+        ],
+        "activation_frames": 9817,
+        "calibration_output_mse_stock": 0.02196846343576908,
+        "calibration_output_mse_gptq": 0.006547228898853064
+      },
+      {
+        "tensor": "encoder.blocks.8.mlp.2.weight",
+        "shape": [
+          768,
+          3072
+        ],
+        "activation_frames": 9817,
+        "calibration_output_mse_stock": 0.00048322082147933543,
+        "calibration_output_mse_gptq": 0.00019237323431298137
+      },
+      {
+        "tensor": "encoder.blocks.9.attn.query.weight",
+        "shape": [
+          768,
+          768
+        ],
+        "activation_frames": 9817,
+        "calibration_output_mse_stock": 0.005620682146400213,
+        "calibration_output_mse_gptq": 0.0025797809939831495
+      },
+      {
+        "tensor": "encoder.blocks.9.attn.key.weight",
+        "shape": [
+          768,
+          768
+        ],
+        "activation_frames": 9817,
+        "calibration_output_mse_stock": 0.006075256038457155,
+        "calibration_output_mse_gptq": 0.0028393727261573076
+      },
+      {
+        "tensor": "encoder.blocks.9.attn.value.weight",
+        "shape": [
+          768,
+          768
+        ],
+        "activation_frames": 9817,
+        "calibration_output_mse_stock": 0.004989555571228266,
+        "calibration_output_mse_gptq": 0.002260806504637003
+      },
+      {
+        "tensor": "encoder.blocks.9.attn.out.weight",
+        "shape": [
+          768,
+          768
+        ],
+        "activation_frames": 9817,
+        "calibration_output_mse_stock": 0.00046950895921327174,
+        "calibration_output_mse_gptq": 0.00014271090913098305
+      },
+      {
+        "tensor": "encoder.blocks.9.mlp.0.weight",
+        "shape": [
+          3072,
+          768
+        ],
+        "activation_frames": 9817,
+        "calibration_output_mse_stock": 0.0740925595164299,
+        "calibration_output_mse_gptq": 0.025153426453471184
+      },
+      {
+        "tensor": "encoder.blocks.9.mlp.2.weight",
+        "shape": [
+          768,
+          3072
+        ],
+        "activation_frames": 9817,
+        "calibration_output_mse_stock": 0.0009591162670403719,
+        "calibration_output_mse_gptq": 0.0004226969613227993
+      },
+      {
+        "tensor": "encoder.blocks.10.attn.query.weight",
+        "shape": [
+          768,
+          768
+        ],
+        "activation_frames": 9817,
+        "calibration_output_mse_stock": 0.005535007920116186,
+        "calibration_output_mse_gptq": 0.0026171926874667406
+      },
+      {
+        "tensor": "encoder.blocks.10.attn.key.weight",
+        "shape": [
+          768,
+          768
+        ],
+        "activation_frames": 9817,
+        "calibration_output_mse_stock": 0.0059756808914244175,
+        "calibration_output_mse_gptq": 0.0029362363275140524
+      },
+      {
+        "tensor": "encoder.blocks.10.attn.value.weight",
+        "shape": [
+          768,
+          768
+        ],
+        "activation_frames": 9817,
+        "calibration_output_mse_stock": 0.00623313756659627,
+        "calibration_output_mse_gptq": 0.0028967999387532473
+      },
+      {
+        "tensor": "encoder.blocks.10.attn.out.weight",
+        "shape": [
+          768,
+          768
+        ],
+        "activation_frames": 9817,
+        "calibration_output_mse_stock": 0.0004886680981144309,
+        "calibration_output_mse_gptq": 0.00015531548706348985
+      },
+      {
+        "tensor": "encoder.blocks.10.mlp.0.weight",
+        "shape": [
+          3072,
+          768
+        ],
+        "activation_frames": 9817,
+        "calibration_output_mse_stock": 0.09054389595985413,
+        "calibration_output_mse_gptq": 0.037343960255384445
+      },
+      {
+        "tensor": "encoder.blocks.10.mlp.2.weight",
+        "shape": [
+          768,
+          3072
+        ],
+        "activation_frames": 9817,
+        "calibration_output_mse_stock": 0.0021832813508808613,
+        "calibration_output_mse_gptq": 0.0009770564502105117
+      },
+      {
+        "tensor": "encoder.blocks.11.attn.query.weight",
+        "shape": [
+          768,
+          768
+        ],
+        "activation_frames": 9817,
+        "calibration_output_mse_stock": 0.006139859091490507,
+        "calibration_output_mse_gptq": 0.0028821586165577173
+      },
+      {
+        "tensor": "encoder.blocks.11.attn.key.weight",
+        "shape": [
+          768,
+          768
+        ],
+        "activation_frames": 9817,
+        "calibration_output_mse_stock": 0.007022982928901911,
+        "calibration_output_mse_gptq": 0.003419894725084305
+      },
+      {
+        "tensor": "encoder.blocks.11.attn.value.weight",
+        "shape": [
+          768,
+          768
+        ],
+        "activation_frames": 9817,
+        "calibration_output_mse_stock": 0.007764328736811876,
+        "calibration_output_mse_gptq": 0.003617815673351288
+      },
+      {
+        "tensor": "encoder.blocks.11.attn.out.weight",
+        "shape": [
+          768,
+          768
+        ],
+        "activation_frames": 9817,
+        "calibration_output_mse_stock": 0.001416543498635292,
+        "calibration_output_mse_gptq": 0.00042917238897643983
+      },
+      {
+        "tensor": "encoder.blocks.11.mlp.0.weight",
+        "shape": [
+          3072,
+          768
+        ],
+        "activation_frames": 9817,
+        "calibration_output_mse_stock": 0.10356820374727249,
+        "calibration_output_mse_gptq": 0.038997795432806015
+      },
+      {
+        "tensor": "encoder.blocks.11.mlp.2.weight",
+        "shape": [
+          768,
+          3072
+        ],
+        "activation_frames": 9817,
+        "calibration_output_mse_stock": 0.005772488657385111,
+        "calibration_output_mse_gptq": 0.002130699111148715
+      }
+    ],
+    "calibration": [
+      {
+        "id": "374-180298-0000",
+        "dataset": "openslr/librispeech_asr",
+        "config": "clean",
+        "split": "train.100",
+        "row": 0,
+        "asset": "/cached-assets/openslr/librispeech_asr/--/71cacbfb7e2354c4226d01e70d77d5fca3d04ba1/--/clean/train.100/0/audio/audio.flac"
+      },
+      {
+        "id": "5778-54535-0009",
+        "dataset": "openslr/librispeech_asr",
+        "config": "clean",
+        "split": "train.100",
+        "row": 3600,
+        "asset": "/cached-assets/openslr/librispeech_asr/--/71cacbfb7e2354c4226d01e70d77d5fca3d04ba1/--/clean/train.100/3600/audio/audio.flac"
+      },
+      {
+        "id": "1992-141719-0039",
+        "dataset": "openslr/librispeech_asr",
+        "config": "clean",
+        "split": "train.100",
+        "row": 7200,
+        "asset": "/cached-assets/openslr/librispeech_asr/--/71cacbfb7e2354c4226d01e70d77d5fca3d04ba1/--/clean/train.100/7200/audio/audio.flac"
+      },
+      {
+        "id": "4014-186176-0022",
+        "dataset": "openslr/librispeech_asr",
+        "config": "clean",
+        "split": "train.100",
+        "row": 10800,
+        "asset": "/cached-assets/openslr/librispeech_asr/--/71cacbfb7e2354c4226d01e70d77d5fca3d04ba1/--/clean/train.100/10800/audio/audio.flac"
+      },
+      {
+        "id": "6147-34607-0024",
+        "dataset": "openslr/librispeech_asr",
+        "config": "clean",
+        "split": "train.100",
+        "row": 14400,
+        "asset": "/cached-assets/openslr/librispeech_asr/--/71cacbfb7e2354c4226d01e70d77d5fca3d04ba1/--/clean/train.100/14400/audio/audio.flac"
+      },
+      {
+        "id": "8123-275216-0028",
+        "dataset": "openslr/librispeech_asr",
+        "config": "clean",
+        "split": "train.100",
+        "row": 18000,
+        "asset": "/cached-assets/openslr/librispeech_asr/--/71cacbfb7e2354c4226d01e70d77d5fca3d04ba1/--/clean/train.100/18000/audio/audio.flac"
+      },
+      {
+        "id": "7278-246956-0027",
+        "dataset": "openslr/librispeech_asr",
+        "config": "clean",
+        "split": "train.100",
+        "row": 21600,
+        "asset": "/cached-assets/openslr/librispeech_asr/--/71cacbfb7e2354c4226d01e70d77d5fca3d04ba1/--/clean/train.100/21600/audio/audio.flac"
+      },
+      {
+        "id": "7517-100442-0031",
+        "dataset": "openslr/librispeech_asr",
+        "config": "clean",
+        "split": "train.100",
+        "row": 25200,
+        "asset": "/cached-assets/openslr/librispeech_asr/--/71cacbfb7e2354c4226d01e70d77d5fca3d04ba1/--/clean/train.100/25200/audio/audio.flac"
+      },
+      {
+        "id": "374-180298-0001",
+        "dataset": "openslr/librispeech_asr",
+        "config": "clean",
+        "split": "train.100",
+        "row": 1,
+        "asset": "/cached-assets/openslr/librispeech_asr/--/71cacbfb7e2354c4226d01e70d77d5fca3d04ba1/--/clean/train.100/1/audio/audio.flac"
+      },
+      {
+        "id": "5778-54535-0010",
+        "dataset": "openslr/librispeech_asr",
+        "config": "clean",
+        "split": "train.100",
+        "row": 3601,
+        "asset": "/cached-assets/openslr/librispeech_asr/--/71cacbfb7e2354c4226d01e70d77d5fca3d04ba1/--/clean/train.100/3601/audio/audio.flac"
+      },
+      {
+        "id": "1992-141719-0040",
+        "dataset": "openslr/librispeech_asr",
+        "config": "clean",
+        "split": "train.100",
+        "row": 7201,
+        "asset": "/cached-assets/openslr/librispeech_asr/--/71cacbfb7e2354c4226d01e70d77d5fca3d04ba1/--/clean/train.100/7201/audio/audio.flac"
+      },
+      {
+        "id": "4014-186176-0023",
+        "dataset": "openslr/librispeech_asr",
+        "config": "clean",
+        "split": "train.100",
+        "row": 10801,
+        "asset": "/cached-assets/openslr/librispeech_asr/--/71cacbfb7e2354c4226d01e70d77d5fca3d04ba1/--/clean/train.100/10801/audio/audio.flac"
+      },
+      {
+        "id": "6147-34607-0025",
+        "dataset": "openslr/librispeech_asr",
+        "config": "clean",
+        "split": "train.100",
+        "row": 14401,
+        "asset": "/cached-assets/openslr/librispeech_asr/--/71cacbfb7e2354c4226d01e70d77d5fca3d04ba1/--/clean/train.100/14401/audio/audio.flac"
+      },
+      {
+        "id": "8123-275216-0029",
+        "dataset": "openslr/librispeech_asr",
+        "config": "clean",
+        "split": "train.100",
+        "row": 18001,
+        "asset": "/cached-assets/openslr/librispeech_asr/--/71cacbfb7e2354c4226d01e70d77d5fca3d04ba1/--/clean/train.100/18001/audio/audio.flac"
+      },
+      {
+        "id": "7278-246956-0028",
+        "dataset": "openslr/librispeech_asr",
+        "config": "clean",
+        "split": "train.100",
+        "row": 21601,
+        "asset": "/cached-assets/openslr/librispeech_asr/--/71cacbfb7e2354c4226d01e70d77d5fca3d04ba1/--/clean/train.100/21601/audio/audio.flac"
+      },
+      {
+        "id": "7517-100442-0032",
+        "dataset": "openslr/librispeech_asr",
+        "config": "clean",
+        "split": "train.100",
+        "row": 25201,
+        "asset": "/cached-assets/openslr/librispeech_asr/--/71cacbfb7e2354c4226d01e70d77d5fca3d04ba1/--/clean/train.100/25201/audio/audio.flac"
+      }
+    ]
+  },
+  "gptq64": {
+    "f16_sha256": "1be3a9b2063867b937e64e2ec7483364a79917e157fa98c5d94b5c1fffea987b",
+    "control_sha256": "f6099c17a4305c6d173ef90ab6f15150dcbb85332b7831313bf36a378d7c5a85",
+    "model_sha256": "fbdf984f23c65168fbef4c18bc972061fc476ba670652d724184c06abcfd9c7f",
+    "damp": 0.01,
+    "tensors": [
+      {
+        "tensor": "encoder.blocks.0.attn.query.weight",
+        "shape": [
+          768,
+          768
+        ],
+        "activation_frames": 40809,
+        "calibration_output_mse_stock": 0.00150012515950948,
+        "calibration_output_mse_gptq": 0.00031891948310658336
+      },
+      {
+        "tensor": "encoder.blocks.0.attn.key.weight",
+        "shape": [
+          768,
+          768
+        ],
+        "activation_frames": 40809,
+        "calibration_output_mse_stock": 0.0017535657389089465,
+        "calibration_output_mse_gptq": 0.00034227586002089083
+      },
+      {
+        "tensor": "encoder.blocks.0.attn.value.weight",
+        "shape": [
+          768,
+          768
+        ],
+        "activation_frames": 40809,
+        "calibration_output_mse_stock": 0.0012188547989353538,
+        "calibration_output_mse_gptq": 0.0004038502520415932
+      },
+      {
+        "tensor": "encoder.blocks.0.attn.out.weight",
+        "shape": [
+          768,
+          768
+        ],
+        "activation_frames": 40809,
+        "calibration_output_mse_stock": 0.0003800940467044711,
+        "calibration_output_mse_gptq": 3.562446727300994e-05
+      },
+      {
+        "tensor": "encoder.blocks.0.mlp.0.weight",
+        "shape": [
+          3072,
+          768
+        ],
+        "activation_frames": 40809,
+        "calibration_output_mse_stock": 0.0028173027094453573,
+        "calibration_output_mse_gptq": 0.0004372049297671765
+      },
+      {
+        "tensor": "encoder.blocks.0.mlp.2.weight",
+        "shape": [
+          768,
+          3072
+        ],
+        "activation_frames": 40809,
+        "calibration_output_mse_stock": 0.00019018691091332585,
+        "calibration_output_mse_gptq": 5.372240048018284e-05
+      },
+      {
+        "tensor": "encoder.blocks.1.attn.query.weight",
+        "shape": [
+          768,
+          768
+        ],
+        "activation_frames": 40809,
+        "calibration_output_mse_stock": 0.0023007947020232677,
+        "calibration_output_mse_gptq": 0.0007713969680480659
+      },
+      {
+        "tensor": "encoder.blocks.1.attn.key.weight",
+        "shape": [
+          768,
+          768
+        ],
+        "activation_frames": 40809,
+        "calibration_output_mse_stock": 0.00253586214967072,
+        "calibration_output_mse_gptq": 0.0008503044955432415
+      },
+      {
+        "tensor": "encoder.blocks.1.attn.value.weight",
+        "shape": [
+          768,
+          768
+        ],
+        "activation_frames": 40809,
+        "calibration_output_mse_stock": 0.0008662315085530281,
+        "calibration_output_mse_gptq": 0.00027885986492037773
+      },
+      {
+        "tensor": "encoder.blocks.1.attn.out.weight",
+        "shape": [
+          768,
+          768
+        ],
+        "activation_frames": 40809,
+        "calibration_output_mse_stock": 5.81981148570776e-05,
+        "calibration_output_mse_gptq": 1.3801254681311548e-05
+      },
+      {
+        "tensor": "encoder.blocks.1.mlp.0.weight",
+        "shape": [
+          3072,
+          768
+        ],
+        "activation_frames": 40809,
+        "calibration_output_mse_stock": 0.00248510274104774,
+        "calibration_output_mse_gptq": 0.0005122066359035671
+      },
+      {
+        "tensor": "encoder.blocks.1.mlp.2.weight",
+        "shape": [
+          768,
+          3072
+        ],
+        "activation_frames": 40809,
+        "calibration_output_mse_stock": 8.451670873910189e-05,
+        "calibration_output_mse_gptq": 2.0155173842795193e-05
+      },
+      {
+        "tensor": "encoder.blocks.2.attn.query.weight",
+        "shape": [
+          768,
+          768
+        ],
+        "activation_frames": 40809,
+        "calibration_output_mse_stock": 0.002149342792108655,
+        "calibration_output_mse_gptq": 0.0008807430858723819
+      },
+      {
+        "tensor": "encoder.blocks.2.attn.key.weight",
+        "shape": [
+          768,
+          768
+        ],
+        "activation_frames": 40809,
+        "calibration_output_mse_stock": 0.002653241390362382,
+        "calibration_output_mse_gptq": 0.001189383678138256
+      },
+      {
+        "tensor": "encoder.blocks.2.attn.value.weight",
+        "shape": [
+          768,
+          768
+        ],
+        "activation_frames": 40809,
+        "calibration_output_mse_stock": 0.00106805597897619,
+        "calibration_output_mse_gptq": 0.0004263683222234249
+      },
+      {
+        "tensor": "encoder.blocks.2.attn.out.weight",
+        "shape": [
+          768,
+          768
+        ],
+        "activation_frames": 40809,
+        "calibration_output_mse_stock": 8.25561219244264e-05,
+        "calibration_output_mse_gptq": 2.1362031475291587e-05
+      },
+      {
+        "tensor": "encoder.blocks.2.mlp.0.weight",
+        "shape": [
+          3072,
+          768
+        ],
+        "activation_frames": 40809,
+        "calibration_output_mse_stock": 0.002095733070746064,
+        "calibration_output_mse_gptq": 0.0005940237315371633
+      },
+      {
+        "tensor": "encoder.blocks.2.mlp.2.weight",
+        "shape": [
+          768,
+          3072
+        ],
+        "activation_frames": 40809,
+        "calibration_output_mse_stock": 7.313482637982816e-05,
+        "calibration_output_mse_gptq": 2.081435923173558e-05
+      },
+      {
+        "tensor": "encoder.blocks.3.attn.query.weight",
+        "shape": [
+          768,
+          768
+        ],
+        "activation_frames": 40809,
+        "calibration_output_mse_stock": 0.0024499280843883753,
+        "calibration_output_mse_gptq": 0.0011857697973027825
+      },
+      {
+        "tensor": "encoder.blocks.3.attn.key.weight",
+        "shape": [
+          768,
+          768
+        ],
+        "activation_frames": 40809,
+        "calibration_output_mse_stock": 0.003146309172734618,
+        "calibration_output_mse_gptq": 0.0015455669490620494
+      },
+      {
+        "tensor": "encoder.blocks.3.attn.value.weight",
+        "shape": [
+          768,
+          768
+        ],
+        "activation_frames": 40809,
+        "calibration_output_mse_stock": 0.0013310848735272884,
+        "calibration_output_mse_gptq": 0.0006241020164452493
+      },
+      {
+        "tensor": "encoder.blocks.3.attn.out.weight",
+        "shape": [
+          768,
+          768
+        ],
+        "activation_frames": 40809,
+        "calibration_output_mse_stock": 7.236568490043283e-05,
+        "calibration_output_mse_gptq": 2.3933804186526686e-05
+      },
+      {
+        "tensor": "encoder.blocks.3.mlp.0.weight",
+        "shape": [
+          3072,
+          768
+        ],
+        "activation_frames": 40809,
+        "calibration_output_mse_stock": 0.0021595912985503674,
+        "calibration_output_mse_gptq": 0.0007311194203794003
+      },
+      {
+        "tensor": "encoder.blocks.3.mlp.2.weight",
+        "shape": [
+          768,
+          3072
+        ],
+        "activation_frames": 40809,
+        "calibration_output_mse_stock": 8.594422251917422e-05,
+        "calibration_output_mse_gptq": 2.7115287593915127e-05
+      },
+      {
+        "tensor": "encoder.blocks.4.attn.query.weight",
+        "shape": [
+          768,
+          768
+        ],
+        "activation_frames": 40809,
+        "calibration_output_mse_stock": 0.0027934114914387465,
+        "calibration_output_mse_gptq": 0.001231148955412209
+      },
+      {
+        "tensor": "encoder.blocks.4.attn.key.weight",
+        "shape": [
+          768,
+          768
+        ],
+        "activation_frames": 40809,
+        "calibration_output_mse_stock": 0.002796370768919587,
+        "calibration_output_mse_gptq": 0.0012194706359878182
+      },
+      {
+        "tensor": "encoder.blocks.4.attn.value.weight",
+        "shape": [
+          768,
+          768
+        ],
+        "activation_frames": 40809,
+        "calibration_output_mse_stock": 0.0015992244007065892,
+        "calibration_output_mse_gptq": 0.0007469300762750208
+      },
+      {
+        "tensor": "encoder.blocks.4.attn.out.weight",
+        "shape": [
+          768,
+          768
+        ],
+        "activation_frames": 40809,
+        "calibration_output_mse_stock": 0.0001517435593996197,
+        "calibration_output_mse_gptq": 6.097010555095039e-05
+      },
+      {
+        "tensor": "encoder.blocks.4.mlp.0.weight",
+        "shape": [
+          3072,
+          768
+        ],
+        "activation_frames": 40809,
+        "calibration_output_mse_stock": 0.0023767792154103518,
+        "calibration_output_mse_gptq": 0.0008507875609211624
+      },
+      {
+        "tensor": "encoder.blocks.4.mlp.2.weight",
+        "shape": [
+          768,
+          3072
+        ],
+        "activation_frames": 40809,
+        "calibration_output_mse_stock": 0.00011824006651295349,
+        "calibration_output_mse_gptq": 3.806482345680706e-05
+      },
+      {
+        "tensor": "encoder.blocks.5.attn.query.weight",
+        "shape": [
+          768,
+          768
+        ],
+        "activation_frames": 40809,
+        "calibration_output_mse_stock": 0.0025464061181992292,
+        "calibration_output_mse_gptq": 0.0012958382721990347
+      },
+      {
+        "tensor": "encoder.blocks.5.attn.key.weight",
+        "shape": [
+          768,
+          768
+        ],
+        "activation_frames": 40809,
+        "calibration_output_mse_stock": 0.0030411717016249895,
+        "calibration_output_mse_gptq": 0.0016268087783828378
+      },
+      {
+        "tensor": "encoder.blocks.5.attn.value.weight",
+        "shape": [
+          768,
+          768
+        ],
+        "activation_frames": 40809,
+        "calibration_output_mse_stock": 0.0016100032953545451,
+        "calibration_output_mse_gptq": 0.0008089215843938291
+      },
+      {
+        "tensor": "encoder.blocks.5.attn.out.weight",
+        "shape": [
+          768,
+          768
+        ],
+        "activation_frames": 40809,
+        "calibration_output_mse_stock": 0.00012587092351168394,
+        "calibration_output_mse_gptq": 5.058168972027488e-05
+      },
+      {
+        "tensor": "encoder.blocks.5.mlp.0.weight",
+        "shape": [
+          3072,
+          768
+        ],
+        "activation_frames": 40809,
+        "calibration_output_mse_stock": 0.0032101888209581375,
+        "calibration_output_mse_gptq": 0.0012004951713606715
+      },
+      {
+        "tensor": "encoder.blocks.5.mlp.2.weight",
+        "shape": [
+          768,
+          3072
+        ],
+        "activation_frames": 40809,
+        "calibration_output_mse_stock": 0.00016205680731218308,
+        "calibration_output_mse_gptq": 6.136020965641364e-05
+      },
+      {
+        "tensor": "encoder.blocks.6.attn.query.weight",
+        "shape": [
+          768,
+          768
+        ],
+        "activation_frames": 40809,
+        "calibration_output_mse_stock": 0.0024058425333350897,
+        "calibration_output_mse_gptq": 0.001149594783782959
+      },
+      {
+        "tensor": "encoder.blocks.6.attn.key.weight",
+        "shape": [
+          768,
+          768
+        ],
+        "activation_frames": 40809,
+        "calibration_output_mse_stock": 0.0025788575876504183,
+        "calibration_output_mse_gptq": 0.0012915631523355842
+      },
+      {
+        "tensor": "encoder.blocks.6.attn.value.weight",
+        "shape": [
+          768,
+          768
+        ],
+        "activation_frames": 40809,
+        "calibration_output_mse_stock": 0.0018474775133654475,
+        "calibration_output_mse_gptq": 0.000885714718606323
+      },
+      {
+        "tensor": "encoder.blocks.6.attn.out.weight",
+        "shape": [
+          768,
+          768
+        ],
+        "activation_frames": 40809,
+        "calibration_output_mse_stock": 6.434381066355854e-05,
+        "calibration_output_mse_gptq": 1.3175904314266518e-05
+      },
+      {
+        "tensor": "encoder.blocks.6.mlp.0.weight",
+        "shape": [
+          3072,
+          768
+        ],
+        "activation_frames": 40809,
+        "calibration_output_mse_stock": 0.003772598458454013,
+        "calibration_output_mse_gptq": 0.001477614394389093
+      },
+      {
+        "tensor": "encoder.blocks.6.mlp.2.weight",
+        "shape": [
+          768,
+          3072
+        ],
+        "activation_frames": 40809,
+        "calibration_output_mse_stock": 0.0005153129459358752,
+        "calibration_output_mse_gptq": 7.405066571664065e-05
+      },
+      {
+        "tensor": "encoder.blocks.7.attn.query.weight",
+        "shape": [
+          768,
+          768
+        ],
+        "activation_frames": 40809,
+        "calibration_output_mse_stock": 0.004947280511260033,
+        "calibration_output_mse_gptq": 0.00226765894331038
+      },
+      {
+        "tensor": "encoder.blocks.7.attn.key.weight",
+        "shape": [
+          768,
+          768
+        ],
+        "activation_frames": 40809,
+        "calibration_output_mse_stock": 0.005760600324720144,
+        "calibration_output_mse_gptq": 0.0026488688308745623
+      },
+      {
+        "tensor": "encoder.blocks.7.attn.value.weight",
+        "shape": [
+          768,
+          768
+        ],
+        "activation_frames": 40809,
+        "calibration_output_mse_stock": 0.003446942428126931,
+        "calibration_output_mse_gptq": 0.0015982231125235558
+      },
+      {
+        "tensor": "encoder.blocks.7.attn.out.weight",
+        "shape": [
+          768,
+          768
+        ],
+        "activation_frames": 40809,
+        "calibration_output_mse_stock": 0.0005290769040584564,
+        "calibration_output_mse_gptq": 0.00021353074407670647
+      },
+      {
+        "tensor": "encoder.blocks.7.mlp.0.weight",
+        "shape": [
+          3072,
+          768
+        ],
+        "activation_frames": 40809,
+        "calibration_output_mse_stock": 0.0044511971063911915,
+        "calibration_output_mse_gptq": 0.0014186333864927292
+      },
+      {
+        "tensor": "encoder.blocks.7.mlp.2.weight",
+        "shape": [
+          768,
+          3072
+        ],
+        "activation_frames": 40809,
+        "calibration_output_mse_stock": 0.0003453379904385656,
+        "calibration_output_mse_gptq": 0.0001248956104973331
+      },
+      {
+        "tensor": "encoder.blocks.8.attn.query.weight",
+        "shape": [
+          768,
+          768
+        ],
+        "activation_frames": 40809,
+        "calibration_output_mse_stock": 0.004463681485503912,
+        "calibration_output_mse_gptq": 0.0020041971001774073
+      },
+      {
+        "tensor": "encoder.blocks.8.attn.key.weight",
+        "shape": [
+          768,
+          768
+        ],
+        "activation_frames": 40809,
+        "calibration_output_mse_stock": 0.004767644684761763,
+        "calibration_output_mse_gptq": 0.002113241935148835
+      },
+      {
+        "tensor": "encoder.blocks.8.attn.value.weight",
+        "shape": [
+          768,
+          768
+        ],
+        "activation_frames": 40809,
+        "calibration_output_mse_stock": 0.0033941641449928284,
+        "calibration_output_mse_gptq": 0.0015015919925644994
+      },
+      {
+        "tensor": "encoder.blocks.8.attn.out.weight",
+        "shape": [
+          768,
+          768
+        ],
+        "activation_frames": 40809,
+        "calibration_output_mse_stock": 0.00020772837160620838,
+        "calibration_output_mse_gptq": 8.726801752345636e-05
+      },
+      {
+        "tensor": "encoder.blocks.8.mlp.0.weight",
+        "shape": [
+          3072,
+          768
+        ],
+        "activation_frames": 40809,
+        "calibration_output_mse_stock": 0.022018536925315857,
+        "calibration_output_mse_gptq": 0.007029183208942413
+      },
+      {
+        "tensor": "encoder.blocks.8.mlp.2.weight",
+        "shape": [
+          768,
+          3072
+        ],
+        "activation_frames": 40809,
+        "calibration_output_mse_stock": 0.00047819537576287985,
+        "calibration_output_mse_gptq": 0.000235233164858073
+      },
+      {
+        "tensor": "encoder.blocks.9.attn.query.weight",
+        "shape": [
+          768,
+          768
+        ],
+        "activation_frames": 40809,
+        "calibration_output_mse_stock": 0.005655499640852213,
+        "calibration_output_mse_gptq": 0.0028416623827069998
+      },
+      {
+        "tensor": "encoder.blocks.9.attn.key.weight",
+        "shape": [
+          768,
+          768
+        ],
+        "activation_frames": 40809,
+        "calibration_output_mse_stock": 0.00611884705722332,
+        "calibration_output_mse_gptq": 0.0031201497185975313
+      },
+      {
+        "tensor": "encoder.blocks.9.attn.value.weight",
+        "shape": [
+          768,
+          768
+        ],
+        "activation_frames": 40809,
+        "calibration_output_mse_stock": 0.005021960940212011,
+        "calibration_output_mse_gptq": 0.0024777157232165337
+      },
+      {
+        "tensor": "encoder.blocks.9.attn.out.weight",
+        "shape": [
+          768,
+          768
+        ],
+        "activation_frames": 40809,
+        "calibration_output_mse_stock": 0.00047701565199531615,
+        "calibration_output_mse_gptq": 0.00018416067177895457
+      },
+      {
+        "tensor": "encoder.blocks.9.mlp.0.weight",
+        "shape": [
+          3072,
+          768
+        ],
+        "activation_frames": 40809,
+        "calibration_output_mse_stock": 0.07409809529781342,
+        "calibration_output_mse_gptq": 0.027504844591021538
+      },
+      {
+        "tensor": "encoder.blocks.9.mlp.2.weight",
+        "shape": [
+          768,
+          3072
+        ],
+        "activation_frames": 40809,
+        "calibration_output_mse_stock": 0.0009681358351372182,
+        "calibration_output_mse_gptq": 0.0005317904870025814
+      },
+      {
+        "tensor": "encoder.blocks.10.attn.query.weight",
+        "shape": [
+          768,
+          768
+        ],
+        "activation_frames": 40809,
+        "calibration_output_mse_stock": 0.005567483138293028,
+        "calibration_output_mse_gptq": 0.0029219661373645067
+      },
+      {
+        "tensor": "encoder.blocks.10.attn.key.weight",
+        "shape": [
+          768,
+          768
+        ],
+        "activation_frames": 40809,
+        "calibration_output_mse_stock": 0.006013820413500071,
+        "calibration_output_mse_gptq": 0.0032768789678812027
+      },
+      {
+        "tensor": "encoder.blocks.10.attn.value.weight",
+        "shape": [
+          768,
+          768
+        ],
+        "activation_frames": 40809,
+        "calibration_output_mse_stock": 0.006276046857237816,
+        "calibration_output_mse_gptq": 0.003241870319470763
+      },
+      {
+        "tensor": "encoder.blocks.10.attn.out.weight",
+        "shape": [
+          768,
+          768
+        ],
+        "activation_frames": 40809,
+        "calibration_output_mse_stock": 0.0004893634468317032,
+        "calibration_output_mse_gptq": 0.0001891858410090208
+      },
+      {
+        "tensor": "encoder.blocks.10.mlp.0.weight",
+        "shape": [
+          3072,
+          768
+        ],
+        "activation_frames": 40809,
+        "calibration_output_mse_stock": 0.09095829725265503,
+        "calibration_output_mse_gptq": 0.0423760712146759
+      },
+      {
+        "tensor": "encoder.blocks.10.mlp.2.weight",
+        "shape": [
+          768,
+          3072
+        ],
+        "activation_frames": 40809,
+        "calibration_output_mse_stock": 0.0021939168218523264,
+        "calibration_output_mse_gptq": 0.0011480179382488132
+      },
+      {
+        "tensor": "encoder.blocks.11.attn.query.weight",
+        "shape": [
+          768,
+          768
+        ],
+        "activation_frames": 40809,
+        "calibration_output_mse_stock": 0.006178872659802437,
+        "calibration_output_mse_gptq": 0.0032229169737547636
+      },
+      {
+        "tensor": "encoder.blocks.11.attn.key.weight",
+        "shape": [
+          768,
+          768
+        ],
+        "activation_frames": 40809,
+        "calibration_output_mse_stock": 0.007069766521453857,
+        "calibration_output_mse_gptq": 0.0038618145044893026
+      },
+      {
+        "tensor": "encoder.blocks.11.attn.value.weight",
+        "shape": [
+          768,
+          768
+        ],
+        "activation_frames": 40809,
+        "calibration_output_mse_stock": 0.007824585773050785,
+        "calibration_output_mse_gptq": 0.004106613341718912
+      },
+      {
+        "tensor": "encoder.blocks.11.attn.out.weight",
+        "shape": [
+          768,
+          768
+        ],
+        "activation_frames": 40809,
+        "calibration_output_mse_stock": 0.001422712579369545,
+        "calibration_output_mse_gptq": 0.0005183053435757756
+      },
+      {
+        "tensor": "encoder.blocks.11.mlp.0.weight",
+        "shape": [
+          3072,
+          768
+        ],
+        "activation_frames": 40809,
+        "calibration_output_mse_stock": 0.10376150161027908,
+        "calibration_output_mse_gptq": 0.0443098247051239
+      },
+      {
+        "tensor": "encoder.blocks.11.mlp.2.weight",
+        "shape": [
+          768,
+          3072
+        ],
+        "activation_frames": 40809,
+        "calibration_output_mse_stock": 0.005801348015666008,
+        "calibration_output_mse_gptq": 0.0027071640361100435
+      }
+    ],
+    "calibration": [
+      {
+        "id": "374-180298-0000",
+        "dataset": "openslr/librispeech_asr",
+        "config": "clean",
+        "split": "train.100",
+        "row": 0,
+        "asset": "/cached-assets/openslr/librispeech_asr/--/71cacbfb7e2354c4226d01e70d77d5fca3d04ba1/--/clean/train.100/0/audio/audio.flac"
+      },
+      {
+        "id": "5778-54535-0009",
+        "dataset": "openslr/librispeech_asr",
+        "config": "clean",
+        "split": "train.100",
+        "row": 3600,
+        "asset": "/cached-assets/openslr/librispeech_asr/--/71cacbfb7e2354c4226d01e70d77d5fca3d04ba1/--/clean/train.100/3600/audio/audio.flac"
+      },
+      {
+        "id": "1992-141719-0039",
+        "dataset": "openslr/librispeech_asr",
+        "config": "clean",
+        "split": "train.100",
+        "row": 7200,
+        "asset": "/cached-assets/openslr/librispeech_asr/--/71cacbfb7e2354c4226d01e70d77d5fca3d04ba1/--/clean/train.100/7200/audio/audio.flac"
+      },
+      {
+        "id": "4014-186176-0022",
+        "dataset": "openslr/librispeech_asr",
+        "config": "clean",
+        "split": "train.100",
+        "row": 10800,
+        "asset": "/cached-assets/openslr/librispeech_asr/--/71cacbfb7e2354c4226d01e70d77d5fca3d04ba1/--/clean/train.100/10800/audio/audio.flac"
+      },
+      {
+        "id": "6147-34607-0024",
+        "dataset": "openslr/librispeech_asr",
+        "config": "clean",
+        "split": "train.100",
+        "row": 14400,
+        "asset": "/cached-assets/openslr/librispeech_asr/--/71cacbfb7e2354c4226d01e70d77d5fca3d04ba1/--/clean/train.100/14400/audio/audio.flac"
+      },
+      {
+        "id": "8123-275216-0028",
+        "dataset": "openslr/librispeech_asr",
+        "config": "clean",
+        "split": "train.100",
+        "row": 18000,
+        "asset": "/cached-assets/openslr/librispeech_asr/--/71cacbfb7e2354c4226d01e70d77d5fca3d04ba1/--/clean/train.100/18000/audio/audio.flac"
+      },
+      {
+        "id": "7278-246956-0027",
+        "dataset": "openslr/librispeech_asr",
+        "config": "clean",
+        "split": "train.100",
+        "row": 21600,
+        "asset": "/cached-assets/openslr/librispeech_asr/--/71cacbfb7e2354c4226d01e70d77d5fca3d04ba1/--/clean/train.100/21600/audio/audio.flac"
+      },
+      {
+        "id": "7517-100442-0031",
+        "dataset": "openslr/librispeech_asr",
+        "config": "clean",
+        "split": "train.100",
+        "row": 25200,
+        "asset": "/cached-assets/openslr/librispeech_asr/--/71cacbfb7e2354c4226d01e70d77d5fca3d04ba1/--/clean/train.100/25200/audio/audio.flac"
+      },
+      {
+        "id": "374-180298-0001",
+        "dataset": "openslr/librispeech_asr",
+        "config": "clean",
+        "split": "train.100",
+        "row": 1,
+        "asset": "/cached-assets/openslr/librispeech_asr/--/71cacbfb7e2354c4226d01e70d77d5fca3d04ba1/--/clean/train.100/1/audio/audio.flac"
+      },
+      {
+        "id": "5778-54535-0010",
+        "dataset": "openslr/librispeech_asr",
+        "config": "clean",
+        "split": "train.100",
+        "row": 3601,
+        "asset": "/cached-assets/openslr/librispeech_asr/--/71cacbfb7e2354c4226d01e70d77d5fca3d04ba1/--/clean/train.100/3601/audio/audio.flac"
+      },
+      {
+        "id": "1992-141719-0040",
+        "dataset": "openslr/librispeech_asr",
+        "config": "clean",
+        "split": "train.100",
+        "row": 7201,
+        "asset": "/cached-assets/openslr/librispeech_asr/--/71cacbfb7e2354c4226d01e70d77d5fca3d04ba1/--/clean/train.100/7201/audio/audio.flac"
+      },
+      {
+        "id": "4014-186176-0023",
+        "dataset": "openslr/librispeech_asr",
+        "config": "clean",
+        "split": "train.100",
+        "row": 10801,
+        "asset": "/cached-assets/openslr/librispeech_asr/--/71cacbfb7e2354c4226d01e70d77d5fca3d04ba1/--/clean/train.100/10801/audio/audio.flac"
+      },
+      {
+        "id": "6147-34607-0025",
+        "dataset": "openslr/librispeech_asr",
+        "config": "clean",
+        "split": "train.100",
+        "row": 14401,
+        "asset": "/cached-assets/openslr/librispeech_asr/--/71cacbfb7e2354c4226d01e70d77d5fca3d04ba1/--/clean/train.100/14401/audio/audio.flac"
+      },
+      {
+        "id": "8123-275216-0029",
+        "dataset": "openslr/librispeech_asr",
+        "config": "clean",
+        "split": "train.100",
+        "row": 18001,
+        "asset": "/cached-assets/openslr/librispeech_asr/--/71cacbfb7e2354c4226d01e70d77d5fca3d04ba1/--/clean/train.100/18001/audio/audio.flac"
+      },
+      {
+        "id": "7278-246956-0028",
+        "dataset": "openslr/librispeech_asr",
+        "config": "clean",
+        "split": "train.100",
+        "row": 21601,
+        "asset": "/cached-assets/openslr/librispeech_asr/--/71cacbfb7e2354c4226d01e70d77d5fca3d04ba1/--/clean/train.100/21601/audio/audio.flac"
+      },
+      {
+        "id": "7517-100442-0032",
+        "dataset": "openslr/librispeech_asr",
+        "config": "clean",
+        "split": "train.100",
+        "row": 25201,
+        "asset": "/cached-assets/openslr/librispeech_asr/--/71cacbfb7e2354c4226d01e70d77d5fca3d04ba1/--/clean/train.100/25201/audio/audio.flac"
+      },
+      {
+        "id": "374-180298-0002",
+        "dataset": "openslr/librispeech_asr",
+        "config": "clean",
+        "split": "train.100",
+        "row": 2,
+        "asset": "/cached-assets/openslr/librispeech_asr/--/71cacbfb7e2354c4226d01e70d77d5fca3d04ba1/--/clean/train.100/2/audio/audio.flac"
+      },
+      {
+        "id": "5778-54535-0011",
+        "dataset": "openslr/librispeech_asr",
+        "config": "clean",
+        "split": "train.100",
+        "row": 3602,
+        "asset": "/cached-assets/openslr/librispeech_asr/--/71cacbfb7e2354c4226d01e70d77d5fca3d04ba1/--/clean/train.100/3602/audio/audio.flac"
+      },
+      {
+        "id": "1992-141719-0041",
+        "dataset": "openslr/librispeech_asr",
+        "config": "clean",
+        "split": "train.100",
+        "row": 7202,
+        "asset": "/cached-assets/openslr/librispeech_asr/--/71cacbfb7e2354c4226d01e70d77d5fca3d04ba1/--/clean/train.100/7202/audio/audio.flac"
+      },
+      {
+        "id": "4014-186176-0024",
+        "dataset": "openslr/librispeech_asr",
+        "config": "clean",
+        "split": "train.100",
+        "row": 10802,
+        "asset": "/cached-assets/openslr/librispeech_asr/--/71cacbfb7e2354c4226d01e70d77d5fca3d04ba1/--/clean/train.100/10802/audio/audio.flac"
+      },
+      {
+        "id": "6147-34607-0026",
+        "dataset": "openslr/librispeech_asr",
+        "config": "clean",
+        "split": "train.100",
+        "row": 14402,
+        "asset": "/cached-assets/openslr/librispeech_asr/--/71cacbfb7e2354c4226d01e70d77d5fca3d04ba1/--/clean/train.100/14402/audio/audio.flac"
+      },
+      {
+        "id": "8123-275216-0030",
+        "dataset": "openslr/librispeech_asr",
+        "config": "clean",
+        "split": "train.100",
+        "row": 18002,
+        "asset": "/cached-assets/openslr/librispeech_asr/--/71cacbfb7e2354c4226d01e70d77d5fca3d04ba1/--/clean/train.100/18002/audio/audio.flac"
+      },
+      {
+        "id": "7278-246956-0029",
+        "dataset": "openslr/librispeech_asr",
+        "config": "clean",
+        "split": "train.100",
+        "row": 21602,
+        "asset": "/cached-assets/openslr/librispeech_asr/--/71cacbfb7e2354c4226d01e70d77d5fca3d04ba1/--/clean/train.100/21602/audio/audio.flac"
+      },
+      {
+        "id": "7517-100442-0033",
+        "dataset": "openslr/librispeech_asr",
+        "config": "clean",
+        "split": "train.100",
+        "row": 25202,
+        "asset": "/cached-assets/openslr/librispeech_asr/--/71cacbfb7e2354c4226d01e70d77d5fca3d04ba1/--/clean/train.100/25202/audio/audio.flac"
+      },
+      {
+        "id": "374-180298-0003",
+        "dataset": "openslr/librispeech_asr",
+        "config": "clean",
+        "split": "train.100",
+        "row": 3,
+        "asset": "/cached-assets/openslr/librispeech_asr/--/71cacbfb7e2354c4226d01e70d77d5fca3d04ba1/--/clean/train.100/3/audio/audio.flac"
+      },
+      {
+        "id": "5778-54535-0012",
+        "dataset": "openslr/librispeech_asr",
+        "config": "clean",
+        "split": "train.100",
+        "row": 3603,
+        "asset": "/cached-assets/openslr/librispeech_asr/--/71cacbfb7e2354c4226d01e70d77d5fca3d04ba1/--/clean/train.100/3603/audio/audio.flac"
+      },
+      {
+        "id": "1992-141719-0042",
+        "dataset": "openslr/librispeech_asr",
+        "config": "clean",
+        "split": "train.100",
+        "row": 7203,
+        "asset": "/cached-assets/openslr/librispeech_asr/--/71cacbfb7e2354c4226d01e70d77d5fca3d04ba1/--/clean/train.100/7203/audio/audio.flac"
+      },
+      {
+        "id": "4014-186176-0025",
+        "dataset": "openslr/librispeech_asr",
+        "config": "clean",
+        "split": "train.100",
+        "row": 10803,
+        "asset": "/cached-assets/openslr/librispeech_asr/--/71cacbfb7e2354c4226d01e70d77d5fca3d04ba1/--/clean/train.100/10803/audio/audio.flac"
+      },
+      {
+        "id": "6147-34607-0027",
+        "dataset": "openslr/librispeech_asr",
+        "config": "clean",
+        "split": "train.100",
+        "row": 14403,
+        "asset": "/cached-assets/openslr/librispeech_asr/--/71cacbfb7e2354c4226d01e70d77d5fca3d04ba1/--/clean/train.100/14403/audio/audio.flac"
+      },
+      {
+        "id": "8123-275216-0031",
+        "dataset": "openslr/librispeech_asr",
+        "config": "clean",
+        "split": "train.100",
+        "row": 18003,
+        "asset": "/cached-assets/openslr/librispeech_asr/--/71cacbfb7e2354c4226d01e70d77d5fca3d04ba1/--/clean/train.100/18003/audio/audio.flac"
+      },
+      {
+        "id": "7278-246956-0030",
+        "dataset": "openslr/librispeech_asr",
+        "config": "clean",
+        "split": "train.100",
+        "row": 21603,
+        "asset": "/cached-assets/openslr/librispeech_asr/--/71cacbfb7e2354c4226d01e70d77d5fca3d04ba1/--/clean/train.100/21603/audio/audio.flac"
+      },
+      {
+        "id": "7517-100442-0034",
+        "dataset": "openslr/librispeech_asr",
+        "config": "clean",
+        "split": "train.100",
+        "row": 25203,
+        "asset": "/cached-assets/openslr/librispeech_asr/--/71cacbfb7e2354c4226d01e70d77d5fca3d04ba1/--/clean/train.100/25203/audio/audio.flac"
+      },
+      {
+        "id": "374-180298-0004",
+        "dataset": "openslr/librispeech_asr",
+        "config": "clean",
+        "split": "train.100",
+        "row": 4,
+        "asset": "/cached-assets/openslr/librispeech_asr/--/71cacbfb7e2354c4226d01e70d77d5fca3d04ba1/--/clean/train.100/4/audio/audio.flac"
+      },
+      {
+        "id": "5778-54535-0013",
+        "dataset": "openslr/librispeech_asr",
+        "config": "clean",
+        "split": "train.100",
+        "row": 3604,
+        "asset": "/cached-assets/openslr/librispeech_asr/--/71cacbfb7e2354c4226d01e70d77d5fca3d04ba1/--/clean/train.100/3604/audio/audio.flac"
+      },
+      {
+        "id": "1992-141719-0043",
+        "dataset": "openslr/librispeech_asr",
+        "config": "clean",
+        "split": "train.100",
+        "row": 7204,
+        "asset": "/cached-assets/openslr/librispeech_asr/--/71cacbfb7e2354c4226d01e70d77d5fca3d04ba1/--/clean/train.100/7204/audio/audio.flac"
+      },
+      {
+        "id": "4014-186176-0026",
+        "dataset": "openslr/librispeech_asr",
+        "config": "clean",
+        "split": "train.100",
+        "row": 10804,
+        "asset": "/cached-assets/openslr/librispeech_asr/--/71cacbfb7e2354c4226d01e70d77d5fca3d04ba1/--/clean/train.100/10804/audio/audio.flac"
+      },
+      {
+        "id": "6147-34607-0028",
+        "dataset": "openslr/librispeech_asr",
+        "config": "clean",
+        "split": "train.100",
+        "row": 14404,
+        "asset": "/cached-assets/openslr/librispeech_asr/--/71cacbfb7e2354c4226d01e70d77d5fca3d04ba1/--/clean/train.100/14404/audio/audio.flac"
+      },
+      {
+        "id": "8123-275216-0032",
+        "dataset": "openslr/librispeech_asr",
+        "config": "clean",
+        "split": "train.100",
+        "row": 18004,
+        "asset": "/cached-assets/openslr/librispeech_asr/--/71cacbfb7e2354c4226d01e70d77d5fca3d04ba1/--/clean/train.100/18004/audio/audio.flac"
+      },
+      {
+        "id": "7278-246956-0031",
+        "dataset": "openslr/librispeech_asr",
+        "config": "clean",
+        "split": "train.100",
+        "row": 21604,
+        "asset": "/cached-assets/openslr/librispeech_asr/--/71cacbfb7e2354c4226d01e70d77d5fca3d04ba1/--/clean/train.100/21604/audio/audio.flac"
+      },
+      {
+        "id": "6925-80680-0000",
+        "dataset": "openslr/librispeech_asr",
+        "config": "clean",
+        "split": "train.100",
+        "row": 25204,
+        "asset": "/cached-assets/openslr/librispeech_asr/--/71cacbfb7e2354c4226d01e70d77d5fca3d04ba1/--/clean/train.100/25204/audio/audio.flac"
+      },
+      {
+        "id": "374-180298-0005",
+        "dataset": "openslr/librispeech_asr",
+        "config": "clean",
+        "split": "train.100",
+        "row": 5,
+        "asset": "/cached-assets/openslr/librispeech_asr/--/71cacbfb7e2354c4226d01e70d77d5fca3d04ba1/--/clean/train.100/5/audio/audio.flac"
+      },
+      {
+        "id": "5778-54535-0014",
+        "dataset": "openslr/librispeech_asr",
+        "config": "clean",
+        "split": "train.100",
+        "row": 3605,
+        "asset": "/cached-assets/openslr/librispeech_asr/--/71cacbfb7e2354c4226d01e70d77d5fca3d04ba1/--/clean/train.100/3605/audio/audio.flac"
+      },
+      {
+        "id": "1992-141719-0044",
+        "dataset": "openslr/librispeech_asr",
+        "config": "clean",
+        "split": "train.100",
+        "row": 7205,
+        "asset": "/cached-assets/openslr/librispeech_asr/--/71cacbfb7e2354c4226d01e70d77d5fca3d04ba1/--/clean/train.100/7205/audio/audio.flac"
+      },
+      {
+        "id": "4014-186176-0027",
+        "dataset": "openslr/librispeech_asr",
+        "config": "clean",
+        "split": "train.100",
+        "row": 10805,
+        "asset": "/cached-assets/openslr/librispeech_asr/--/71cacbfb7e2354c4226d01e70d77d5fca3d04ba1/--/clean/train.100/10805/audio/audio.flac"
+      },
+      {
+        "id": "6147-34607-0029",
+        "dataset": "openslr/librispeech_asr",
+        "config": "clean",
+        "split": "train.100",
+        "row": 14405,
+        "asset": "/cached-assets/openslr/librispeech_asr/--/71cacbfb7e2354c4226d01e70d77d5fca3d04ba1/--/clean/train.100/14405/audio/audio.flac"
+      },
+      {
+        "id": "8123-275216-0033",
+        "dataset": "openslr/librispeech_asr",
+        "config": "clean",
+        "split": "train.100",
+        "row": 18005,
+        "asset": "/cached-assets/openslr/librispeech_asr/--/71cacbfb7e2354c4226d01e70d77d5fca3d04ba1/--/clean/train.100/18005/audio/audio.flac"
+      },
+      {
+        "id": "7278-246956-0032",
+        "dataset": "openslr/librispeech_asr",
+        "config": "clean",
+        "split": "train.100",
+        "row": 21605,
+        "asset": "/cached-assets/openslr/librispeech_asr/--/71cacbfb7e2354c4226d01e70d77d5fca3d04ba1/--/clean/train.100/21605/audio/audio.flac"
+      },
+      {
+        "id": "6925-80680-0001",
+        "dataset": "openslr/librispeech_asr",
+        "config": "clean",
+        "split": "train.100",
+        "row": 25205,
+        "asset": "/cached-assets/openslr/librispeech_asr/--/71cacbfb7e2354c4226d01e70d77d5fca3d04ba1/--/clean/train.100/25205/audio/audio.flac"
+      },
+      {
+        "id": "374-180298-0006",
+        "dataset": "openslr/librispeech_asr",
+        "config": "clean",
+        "split": "train.100",
+        "row": 6,
+        "asset": "/cached-assets/openslr/librispeech_asr/--/71cacbfb7e2354c4226d01e70d77d5fca3d04ba1/--/clean/train.100/6/audio/audio.flac"
+      },
+      {
+        "id": "5778-54535-0015",
+        "dataset": "openslr/librispeech_asr",
+        "config": "clean",
+        "split": "train.100",
+        "row": 3606,
+        "asset": "/cached-assets/openslr/librispeech_asr/--/71cacbfb7e2354c4226d01e70d77d5fca3d04ba1/--/clean/train.100/3606/audio/audio.flac"
+      },
+      {
+        "id": "1992-141719-0045",
+        "dataset": "openslr/librispeech_asr",
+        "config": "clean",
+        "split": "train.100",
+        "row": 7206,
+        "asset": "/cached-assets/openslr/librispeech_asr/--/71cacbfb7e2354c4226d01e70d77d5fca3d04ba1/--/clean/train.100/7206/audio/audio.flac"
+      },
+      {
+        "id": "4014-186176-0028",
+        "dataset": "openslr/librispeech_asr",
+        "config": "clean",
+        "split": "train.100",
+        "row": 10806,
+        "asset": "/cached-assets/openslr/librispeech_asr/--/71cacbfb7e2354c4226d01e70d77d5fca3d04ba1/--/clean/train.100/10806/audio/audio.flac"
+      },
+      {
+        "id": "6147-34607-0030",
+        "dataset": "openslr/librispeech_asr",
+        "config": "clean",
+        "split": "train.100",
+        "row": 14406,
+        "asset": "/cached-assets/openslr/librispeech_asr/--/71cacbfb7e2354c4226d01e70d77d5fca3d04ba1/--/clean/train.100/14406/audio/audio.flac"
+      },
+      {
+        "id": "8123-275216-0034",
+        "dataset": "openslr/librispeech_asr",
+        "config": "clean",
+        "split": "train.100",
+        "row": 18006,
+        "asset": "/cached-assets/openslr/librispeech_asr/--/71cacbfb7e2354c4226d01e70d77d5fca3d04ba1/--/clean/train.100/18006/audio/audio.flac"
+      },
+      {
+        "id": "7278-246956-0033",
+        "dataset": "openslr/librispeech_asr",
+        "config": "clean",
+        "split": "train.100",
+        "row": 21606,
+        "asset": "/cached-assets/openslr/librispeech_asr/--/71cacbfb7e2354c4226d01e70d77d5fca3d04ba1/--/clean/train.100/21606/audio/audio.flac"
+      },
+      {
+        "id": "6925-80680-0002",
+        "dataset": "openslr/librispeech_asr",
+        "config": "clean",
+        "split": "train.100",
+        "row": 25206,
+        "asset": "/cached-assets/openslr/librispeech_asr/--/71cacbfb7e2354c4226d01e70d77d5fca3d04ba1/--/clean/train.100/25206/audio/audio.flac"
+      },
+      {
+        "id": "374-180298-0007",
+        "dataset": "openslr/librispeech_asr",
+        "config": "clean",
+        "split": "train.100",
+        "row": 7,
+        "asset": "/cached-assets/openslr/librispeech_asr/--/71cacbfb7e2354c4226d01e70d77d5fca3d04ba1/--/clean/train.100/7/audio/audio.flac"
+      },
+      {
+        "id": "5778-54535-0016",
+        "dataset": "openslr/librispeech_asr",
+        "config": "clean",
+        "split": "train.100",
+        "row": 3607,
+        "asset": "/cached-assets/openslr/librispeech_asr/--/71cacbfb7e2354c4226d01e70d77d5fca3d04ba1/--/clean/train.100/3607/audio/audio.flac"
+      },
+      {
+        "id": "1992-141719-0046",
+        "dataset": "openslr/librispeech_asr",
+        "config": "clean",
+        "split": "train.100",
+        "row": 7207,
+        "asset": "/cached-assets/openslr/librispeech_asr/--/71cacbfb7e2354c4226d01e70d77d5fca3d04ba1/--/clean/train.100/7207/audio/audio.flac"
+      },
+      {
+        "id": "4014-186176-0029",
+        "dataset": "openslr/librispeech_asr",
+        "config": "clean",
+        "split": "train.100",
+        "row": 10807,
+        "asset": "/cached-assets/openslr/librispeech_asr/--/71cacbfb7e2354c4226d01e70d77d5fca3d04ba1/--/clean/train.100/10807/audio/audio.flac"
+      },
+      {
+        "id": "6147-34607-0031",
+        "dataset": "openslr/librispeech_asr",
+        "config": "clean",
+        "split": "train.100",
+        "row": 14407,
+        "asset": "/cached-assets/openslr/librispeech_asr/--/71cacbfb7e2354c4226d01e70d77d5fca3d04ba1/--/clean/train.100/14407/audio/audio.flac"
+      },
+      {
+        "id": "8123-275216-0035",
+        "dataset": "openslr/librispeech_asr",
+        "config": "clean",
+        "split": "train.100",
+        "row": 18007,
+        "asset": "/cached-assets/openslr/librispeech_asr/--/71cacbfb7e2354c4226d01e70d77d5fca3d04ba1/--/clean/train.100/18007/audio/audio.flac"
+      },
+      {
+        "id": "7278-246956-0034",
+        "dataset": "openslr/librispeech_asr",
+        "config": "clean",
+        "split": "train.100",
+        "row": 21607,
+        "asset": "/cached-assets/openslr/librispeech_asr/--/71cacbfb7e2354c4226d01e70d77d5fca3d04ba1/--/clean/train.100/21607/audio/audio.flac"
+      },
+      {
+        "id": "6925-80680-0003",
+        "dataset": "openslr/librispeech_asr",
+        "config": "clean",
+        "split": "train.100",
+        "row": 25207,
+        "asset": "/cached-assets/openslr/librispeech_asr/--/71cacbfb7e2354c4226d01e70d77d5fca3d04ba1/--/clean/train.100/25207/audio/audio.flac"
+      }
+    ]
+  }
+}
